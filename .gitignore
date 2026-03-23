@@ -1,0 +1,86 @@
+# ============================================
+# .gitignore for Polypharmacy GNN Project
+# ============================================
+
+# ----- Python -----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.Python
+env/
+venv/
+.venv/
+*.virtualenv
+
+# ----- IDE / Editor -----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ----- Large Dataset Files (Root) -----
+TWOSIDES.csv
+twosides_filtered.csv
+faers_layer2_final.csv
+merged_faers.csv
+faers_drugcentral.csv
+faers_rxnorm.csv
+faers_with_atc.csv
+faers_with_mechanism.csv
+modifiedfaersq1.csv
+modifiedfaersq2.csv
+modifiedfaersq3.csv
+modifiedfaersq4.csv
+all_drug_interactions.csv
+drug_names.tsv
+rxcui_structure_map.csv
+structure_atc_map.csv
+structure_mechanism_map.csv
+structure_name_lookup.csv
+
+# ----- Graph / Layer 3 Data (Root) -----
+layer3_edges_weighted.csv
+layer3_nodes.csv
+layer3_nodes_enriched.csv
+layer3_training_cases.csv
+layer3_feature_meta.json
+
+# ----- Trained Model Weights -----
+*.pth
+
+# ----- Model Config -----
+model_config.json
+
+# ----- Raw Dataset Directories -----
+RxNorm_full_prescribe_02022026/
+drugcentral.dump.11012023.sql/
+faers_ascii_2023q1/
+faers_ascii_2023q2/
+faers_ascii_2023Q3/
+faers_ascii_2023Q4/
+meddra_all_se.tsv/
+
+# ----- Streamlit Frontend Data (copied datasets) -----
+STREAMLIT_FRONTEND/DATA/
+
+# ----- Generated Results -----
+RESULTS/
+
+# ----- Generated Presentation -----
+generate_ppt.py
+generate_results.py
+validate_pipeline.py
+Polypharmacy_GNN_Presentation.pptx
+*.pptx
+
+# ----- Documentation (optional - remove if you want these on GitHub) -----
+# deep_dive_technical.md
+# project_documentation.md
