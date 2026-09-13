@@ -2,7 +2,7 @@
 # .gitignore for Polypharmacy GNN Project
 # ============================================
 
-# ----- Python -----
+# ----- Python Bytecode & Virtual Environments -----
 __pycache__/
 *.py[cod]
 *$py.class
@@ -17,7 +17,7 @@ venv/
 .venv/
 *.virtualenv
 
-# ----- IDE / Editor -----
+# ----- IDE / OS Files -----
 .vscode/
 .idea/
 *.swp
@@ -26,61 +26,47 @@ venv/
 .DS_Store
 Thumbs.db
 
-# ----- Large Dataset Files (Root) -----
-TWOSIDES.csv
-twosides_filtered.csv
-faers_layer2_final.csv
-merged_faers.csv
-faers_drugcentral.csv
-faers_rxnorm.csv
-faers_with_atc.csv
-faers_with_mechanism.csv
-modifiedfaersq1.csv
-modifiedfaersq2.csv
-modifiedfaersq3.csv
-modifiedfaersq4.csv
-all_drug_interactions.csv
-drug_names.tsv
-rxcui_structure_map.csv
-structure_atc_map.csv
-structure_mechanism_map.csv
-structure_name_lookup.csv
+# ----- Datasets & Data Files (Large CSV / TSV / SQL) -----
+*.csv
+*.tsv
+*.sql
+*.dump
 
-# ----- Graph / Layer 3 Data (Root) -----
-layer3_edges_weighted.csv
-layer3_nodes.csv
-layer3_nodes_enriched.csv
-layer3_training_cases.csv
-layer3_feature_meta.json
-
-# ----- Trained Model Weights -----
-*.pth
-
-# ----- Model Config -----
-model_config.json
-
-# ----- Raw Dataset Directories -----
-RxNorm_full_prescribe_02022026/
-drugcentral.dump.11012023.sql/
-faers_ascii_2023q1/
-faers_ascii_2023q2/
-faers_ascii_2023Q3/
-faers_ascii_2023Q4/
+# Raw Dataset Folders & Archives
+bio-decagon-*/
+bio-decagon-*.tar.gz
+RxNorm_full_prescribe_*/
+drugcentral.dump.*/
+faers_ascii_*/
 meddra_all_se.tsv/
-
-# ----- Streamlit Frontend Data (copied datasets) -----
 STREAMLIT_FRONTEND/DATA/
 
-# ----- Generated Results -----
+# Graph Data & Processed Datasets
+**/Graph_Data/
+**/Processed/
 RESULTS/
 
-# ----- Generated Presentation -----
-generate_ppt.py
-generate_results.py
-validate_pipeline.py
-Polypharmacy_GNN_Presentation.pptx
-*.pptx
+# ----- Model Weights & Binary Checkpoints -----
+*.pth
+*.pt
+*.pkl
+*.pickle
+*.bin
+*.onnx
+*.h5
+*.pb
 
-# ----- Documentation (optional - remove if you want these on GitHub) -----
-# deep_dive_technical.md
-# project_documentation.md
+# ----- Archives & Compressed Files -----
+*.zip
+*.tar.gz
+*.tgz
+*.tar
+*.gz
+*.rar
+*.7z
+
+# ----- Documents, Slides & Presentation Files -----
+*.docx
+*.pdf
+*.pptx
+*.xlsx

@@ -1,0 +1,55 @@
+# GNN Architecture Comparison for Polypharmacy Risk
+
+When modeling complex clinical networks (combining patients, drugs, proteins, and side effects), choosing the correct Graph Neural Network (GNN) architecture is critical. 
+
+Here is a comparison of how different GNN models behave specifically within the context of your goals: **Risk Hierarchy/Explainability, Safer Combinations, and Side Effect Prediction.**
+
+---
+
+## 1. GCN (Graph Convolutional Network) & GraphSAGE
+*Your current Layer 4 architecture.*
+- **How it works:** Aggregates information equally from all neighboring nodes.
+- **Heterogeneous Support:** **Poor.** It forces you to treat "Drugs", "Proteins", and "Patients" as the same mathematical entity, destroying the biological semantics.
+- **Explainability:** **None.** Because it averages neighbor information uniformly, you cannot easily query the model to ask *which* specific drug or protein caused a high-risk prediction.
+- **Verdict in Context:** Insufficient for your new requirements.
+
+## 2. GAT (Graph Attention Network)
+- **How it works:** Similar to GCN, but it learns **Attention Weights** for edges. It learns to "pay more attention" to certain neighbors than others.
+- **Heterogeneous Support:** **Poor.** It still assumes the graph is homogeneous (one node type, one edge type).
+- **Explainability:** **Good.** You can extract the attention weights to see which drug a patient node "paid attention to" the most.
+- **Verdict in Context:** Solves the explainability requirement, but fails to properly model the distinct biological layers (targets, PPIs).
+
+## 3. R-GCN (Relational GCN) / Decagon
+*The architecture used in the original 2018 Decagon paper.*
+- **How it works:** Extends GCN to support multiple *edge types*. In Decagon, each of the 964 side effects was treated as a completely different edge type between two drugs.
+- **Heterogeneous Support:** **Moderate.** Handles multiple edge types, but still struggles with vastly different node types (Patient vs Protein).
+- **Explainability:** **Poor.** Like standard GCNs, R-GCNs do not natively produce attention weights, making it hard to extract a hierarchy of risk for a specific patient combination.
+- **Verdict in Context:** Great for massive DDI link prediction, but computationally heavy and lacks the innate explainability you requested.
+
+## 4. HAN (Heterogeneous Graph Attention Network)
+- **How it works:** Uses Attention (like GAT), but operates on **Meta-Paths**. You manually define paths (e.g., `Patient -> Drug -> Protein -> Drug -> Side Effect`), and the model learns attention weights along these specific paths.
+- **Heterogeneous Support:** **Excellent.**
+- **Explainability:** **Excellent.** Provides both node-level and semantic-level attention (e.g., "The risk was driven by the Drug-Protein-Drug pathway").
+- **Verdict in Context:** Highly capable, but defining rigid meta-paths manually is restrictive when dealing with messy real-world FAERS patient cases where patients take anywhere from 2 to 20 drugs.
+
+## 5. HGT (Heterogeneous Graph Transformer)
+*The architecture proposed in my implementation plan.*
+- **How it works:** Uses the Transformer attention mechanism (like ChatGPT) adapted for graphs. It automatically assigns different weight matrices to different types of nodes and edges, eliminating the need to manually define meta-paths.
+- **Heterogeneous Support:** **State-of-the-Art.** Perfectly handles your `Patient`, `Drug`, `Protein`, and `Side Effect` nodes natively.
+- **Explainability:** **State-of-the-Art.** Produces multi-head attention weights for every single edge in the subgraph. 
+- **Verdict in Context:** **The Absolute Best Choice.** 
+  - **Risk Hierarchy:** We can directly pull the HGT attention weights to rank exactly which `Drug` node most heavily influenced the `Patient` node's severity score. 
+  - **Safer Combinations:** We can easily swap `Drug` nodes in the PyG `HeteroData` object and measure the delta in predicted severity.
+  - **Side Effects:** The distinct node type embeddings allow us to easily attach a multi-label classification head specifically to the `Patient` node embeddings.
+
+---
+
+### Summary Table
+
+| Feature | GCN / SAGE | GAT | R-GCN (Decagon) | HAN | HGT (Proposed) |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **Handles Multiple Node Types (Patient/Drug/Protein)** | ❌ | ❌ | ⚠️ | ✅ | ✅ |
+| **Handles Multiple Edge Types (Targets/PPI/DDI)** | ❌ | ❌ | ✅ | ✅ | ✅ |
+| **Native Explainability (Attention Weights)** | ❌ | ✅ | ❌ | ✅ | ✅ |
+| **Scales to complex Patient Subgraphs** | ✅ | ✅ | ⚠️ | ⚠️ | ✅ |
+| **Overall Fit for Your Goals** | Low | Low | Medium | High | **Optimal** |

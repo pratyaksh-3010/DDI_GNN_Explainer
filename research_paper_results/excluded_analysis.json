@@ -1,0 +1,48 @@
+{
+  "experiment": "Excluded Cases Analysis (M7)",
+  "total_cases": 92510,
+  "excluded": {
+    "count": 24551,
+    "percentage": 26.54,
+    "severity_rate": 0.622,
+    "mean_drug_count": 2.17,
+    "median_drug_count": 2.0,
+    "drug_count_distribution": {
+      "count": 24551.0,
+      "mean": 2.1712353875605883,
+      "std": 0.4925566714298699,
+      "min": 2.0,
+      "25%": 2.0,
+      "50%": 2.0,
+      "75%": 2.0,
+      "max": 10.0
+    }
+  },
+  "included": {
+    "count": 67959,
+    "percentage": 73.46,
+    "severity_rate": 0.5719,
+    "mean_drug_count": 4.2,
+    "median_drug_count": 3.0,
+    "mean_edges": 6.32,
+    "median_edges": 1.0,
+    "max_edges": 512,
+    "drug_count_distribution": {
+      "count": 67959.0,
+      "mean": 4.19776630026928,
+      "std": 4.043077913587444,
+      "min": 2.0,
+      "25%": 2.0,
+      "50%": 3.0,
+      "75%": 4.0,
+      "max": 55.0
+    }
+  },
+  "statistical_tests": {
+    "severity_chi2": 186.1267,
+    "severity_p_value": 0.0,
+    "drug_count_mann_whitney_u": 407531465.5,
+    "drug_count_p_value": 0.0
+  },
+  "narrative": "Of 92510 total cases, 24551 (26.5%) were excluded due to having no drug-drug interaction edges in the TWOSIDES-derived graph. Excluded cases had a severity rate of 62.2% vs 57.2% for included cases. Excluded cases had a mean of 2.2 drugs per case (vs 4.2 for included). The severity rate difference was statistically significant (chi-squared p=0.0000)."
+}

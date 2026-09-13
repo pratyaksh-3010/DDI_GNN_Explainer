@@ -1,0 +1,58 @@
+{
+  "experiment": "Class Weighting Ablation (M6)",
+  "class_distribution": {
+    "positive": 38868.0,
+    "negative": 29091.0,
+    "positive_pct": 57.19,
+    "negative_pct": 42.81,
+    "pos_weight": 0.7485
+  },
+  "weighted": {
+    "config": "Weighted",
+    "pos_weight": 0.7485,
+    "best_epoch": 19,
+    "auc": 0.7888,
+    "accuracy": 0.7103,
+    "precision": 0.7605,
+    "recall": 0.7202,
+    "f1": 0.7398,
+    "threshold": 0.4605,
+    "confusion_matrix": [
+      [
+        4055,
+        1763
+      ],
+      [
+        2175,
+        5599
+      ]
+    ]
+  },
+  "unweighted": {
+    "config": "Unweighted",
+    "pos_weight": null,
+    "best_epoch": 20,
+    "auc": 0.7873,
+    "accuracy": 0.6978,
+    "precision": 0.7851,
+    "recall": 0.6493,
+    "f1": 0.7108,
+    "threshold": 0.5767,
+    "confusion_matrix": [
+      [
+        4436,
+        1382
+      ],
+      [
+        2726,
+        5048
+      ]
+    ]
+  },
+  "comparison": {
+    "f1_difference": 0.029,
+    "auc_difference": 0.0015,
+    "recommendation": "weighted",
+    "summary": "Class weighting improved F1 by 2.9 points and improved AUC by 0.1 points."
+  }
+}

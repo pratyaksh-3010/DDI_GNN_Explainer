@@ -1,0 +1,53 @@
+{
+  "experiment": "Fidelity Scores (Explanation Faithfulness)",
+  "total_test_graphs": 13592,
+  "k_values": [
+    1,
+    2,
+    3
+  ],
+  "fidelity_plus": {
+    "k=1": {
+      "mean": 0.0749,
+      "std": 0.0962,
+      "median": 0.0393,
+      "n_samples": 13592
+    },
+    "k=2": {
+      "mean": 0.1218,
+      "std": 0.1336,
+      "median": 0.0747,
+      "n_samples": 8214
+    },
+    "k=3": {
+      "mean": 0.1503,
+      "std": 0.1561,
+      "median": 0.0941,
+      "n_samples": 5069
+    }
+  },
+  "fidelity_minus": {
+    "k=1": {
+      "mean": 0.1231,
+      "std": 0.1393,
+      "median": 0.0685,
+      "n_samples": 13592
+    },
+    "k=2": {
+      "mean": 0.1134,
+      "std": 0.14,
+      "median": 0.0597,
+      "n_samples": 8214
+    },
+    "k=3": {
+      "mean": 0.0968,
+      "std": 0.1354,
+      "median": 0.0417,
+      "n_samples": 5069
+    }
+  },
+  "interpretation": {
+    "fidelity_plus": "Higher fidelity+ = removing top-k important nodes significantly changes prediction = explanations are faithful",
+    "fidelity_minus": "Lower fidelity- = keeping only top-k important nodes preserves prediction = explanations capture what matters"
+  }
+}

@@ -1,0 +1,1274 @@
+======================================================================
+CASE: True Positive (High Risk, Correctly Predicted)
+Category: TP
+Predicted Probability: 0.9973
+True Label: HIGH RISK
+Predicted Label: HIGH RISK
+Drugs: 48 | Edges: 476
+Drug Names: sucrose, potassium chloride, umeclidinium bromide, phenoxyethanol, sodium phosphate, monobasic, ascorbic acid, allantoin, acetaminophen, lutein, aluminum hydroxide, darbepoetin alfa, chlorpheniramine maleate, warfarin, fluticasone, dexlansoprazole, melatonin, ammonium chloride, propylene glycol, insulin degludec, simvastatin, vilanterol trifenatate, vitamin E, sodium chloride, dobutamine hydrochloride, hydromorphone hydrochloride, polyethylene glycol 4000, metamizole sodium, docusate sodium, riboflavin, magnesium oxide, betamethasone, hydrocortisone acetate, stearic acid, nystatin, biotin, sodium bicarbonate, ceftriaxone sodium, titanium dioxide, citric acid, maltose, pyridoxine hydrochloride, calcium carbonate, lanthanum carbonate, amiodarone hydrochloride, lansoprazole, magnesium carbonate, albuterol sulfate, chloramphenicol
+======================================================================
+
+--- Gradient Attribution: Per-Drug Importance ---
+  #1 acetaminophen: 0.0702
+      -> Target gene count: 0.4247
+      -> Target: Cytosolic other: 0.2242
+      -> Known side effects: 0.2023
+      -> Target: Unclassified: 0.1798
+      -> Target: GPCR: 0.1594
+  #2 lansoprazole: 0.0392
+      -> Target gene count: 0.3550
+      -> Known side effects: 0.2263
+      -> Target: Transporter: 0.1294
+      -> Action: INHIBITOR: 0.0726
+      -> Drug class diversity: 0.0719
+  #3 ascorbic acid: 0.0377
+      -> Target gene count: 0.2763
+      -> Known side effects: 0.2287
+      -> Target: Transporter: 0.1172
+      -> ATC: Genitourinary: 0.1105
+      -> ATC: Sensory Organs: 0.0999
+  #4 simvastatin: 0.0361
+      -> Target gene count: 0.3279
+      -> Known side effects: 0.2270
+      -> ATC: Cardiovascular: 0.0910
+      -> Action: INHIBITOR: 0.0670
+      -> Target: Enzyme: 0.0627
+  #5 dexlansoprazole: 0.0327
+      -> Target gene count: 0.2265
+      -> Known side effects: 0.1955
+      -> Target: Unclassified: 0.1221
+      -> Target: Transporter: 0.1013
+      -> Action: INHIBITOR: 0.0671
+  #6 melatonin: 0.0319
+      -> Target gene count: 0.2676
+      -> Known side effects: 0.2083
+      -> Target: GPCR: 0.1151
+      -> Target: Enzyme: 0.0604
+      -> Action: AGONIST: 0.0513
+  #7 warfarin: 0.0309
+      -> Target gene count: 0.3077
+      -> Known side effects: 0.2343
+      -> Action: INHIBITOR: 0.0768
+      -> Target: Enzyme: 0.0727
+      -> Drug class diversity: 0.0485
+  #8 potassium chloride: 0.0301
+      -> Target gene count: 0.3430
+      -> Known side effects: 0.2188
+      -> Drug class diversity: 0.0659
+      -> Target: Enzyme: 0.0656
+      -> ATC: Alimentary/Metabolism: 0.0385
+  #9 vilanterol trifenatate: 0.0300
+      -> Drug class diversity: 0.3479
+      -> Known side effects: 0.1142
+      -> Target gene count: 0.0898
+      -> Target: GPCR: 0.0829
+      -> ATC: Respiratory: 0.0724
+  #10 sodium chloride: 0.0295
+      -> Target gene count: 0.3076
+      -> Known side effects: 0.2113
+      -> ATC: Sensory Organs: 0.1032
+      -> Drug class diversity: 0.0494
+      -> ATC: Blood: 0.0412
+  #11 betamethasone: 0.0295
+      -> Target gene count: 0.2830
+      -> Known side effects: 0.2107
+      -> Target: GPCR: 0.1202
+      -> Target: Nuclear hormone receptor: 0.0553
+      -> Action: AGONIST: 0.0485
+  #12 chloramphenicol: 0.0293
+      -> Target gene count: 0.1813
+      -> Known side effects: 0.1548
+      -> Target: Unclassified: 0.1079
+      -> ATC: Sensory Organs: 0.0826
+      -> ATC: Genitourinary: 0.0728
+  #13 fluticasone: 0.0285
+      -> Target gene count: 0.2844
+      -> Known side effects: 0.2267
+      -> Target: Nuclear hormone receptor: 0.0567
+      -> Action: AGONIST: 0.0515
+      -> Target: Transcription factor: 0.0417
+  #14 vitamin E: 0.0284
+      -> Target gene count: 0.2593
+      -> Known side effects: 0.2252
+      -> Target: Transporter: 0.1162
+      -> Target: Enzyme: 0.0683
+      -> ATC: Alimentary/Metabolism: 0.0329
+  #15 riboflavin: 0.0283
+      -> Target gene count: 0.2307
+      -> Known side effects: 0.1743
+      -> Target: Unclassified: 0.1036
+      -> ATC: Sensory Organs: 0.0915
+      -> Target: Enzyme: 0.0525
+  #16 calcium carbonate: 0.0275
+      -> Target gene count: 0.3603
+      -> Known side effects: 0.2284
+      -> Drug class diversity: 0.0777
+      -> ATC: Alimentary/Metabolism: 0.0344
+  #17 nystatin: 0.0274
+      -> Target gene count: 0.2825
+      -> Known side effects: 0.2261
+      -> ATC: Genitourinary: 0.1152
+      -> Drug class diversity: 0.0356
+      -> ATC: Alimentary/Metabolism: 0.0349
+  #18 darbepoetin alfa: 0.0272
+      -> Target gene count: 0.2779
+      -> Known side effects: 0.2208
+      -> Target: Membrane receptor: 0.0653
+      -> Action: AGONIST: 0.0590
+      -> ATC: Blood: 0.0384
+  #19 insulin degludec: 0.0264
+      -> Known side effects: 0.2888
+      -> Drug class diversity: 0.2198
+      -> ATC: Alimentary/Metabolism: 0.1111
+      -> Target: Kinase: 0.0306
+      -> Target gene count: 0.0153
+  #20 magnesium oxide: 0.0252
+      -> Target gene count: 0.3132
+      -> Known side effects: 0.2106
+      -> Drug class diversity: 0.0733
+      -> ATC: Alimentary/Metabolism: 0.0443
+  #21 citric acid: 0.0251
+      -> Target gene count: 0.1908
+      -> Known side effects: 0.1545
+      -> Action: ACTIVATOR: 0.1351
+      -> Target: Enzyme: 0.0547
+      -> Target: Ion channel: 0.0535
+  #22 sodium bicarbonate: 0.0223
+      -> Target gene count: 0.2704
+      -> Known side effects: 0.2253
+      -> ATC: Blood: 0.0465
+      -> Drug class diversity: 0.0260
+  #23 biotin: 0.0219
+      -> Target gene count: 0.2372
+      -> Known side effects: 0.2024
+      -> Target: Enzyme: 0.0623
+      -> ATC: Alimentary/Metabolism: 0.0367
+      -> Drug class diversity: 0.0201
+  #24 aluminum hydroxide: 0.0184
+      -> Target gene count: 0.2214
+      -> Known side effects: 0.2032
+      -> ATC: Alimentary/Metabolism: 0.0278
+      -> Drug class diversity: 0.0152
+  #25 magnesium carbonate: 0.0176
+      -> Target gene count: 0.2333
+      -> Known side effects: 0.0839
+      -> Drug class diversity: 0.0718
+      -> ATC: Alimentary/Metabolism: 0.0600
+  #26 polyethylene glycol 4000: 0.0174
+      -> Target gene count: 0.2136
+      -> Known side effects: 0.1745
+      -> ATC: Alimentary/Metabolism: 0.0309
+      -> Drug class diversity: 0.0241
+  #27 lanthanum carbonate: 0.0174
+      -> Target gene count: 0.2016
+      -> Known side effects: 0.1706
+      -> ATC: Various: 0.0569
+      -> Drug class diversity: 0.0137
+  #28 stearic acid: 0.0174
+      -> Target: Enzyme: 0.1161
+      -> Known side effects: 0.0944
+      -> Target gene count: 0.0919
+      -> Target: Nuclear hormone receptor: 0.0873
+      -> Drug class diversity: 0.0360
+  #29 pyridoxine hydrochloride: 0.0161
+      -> Drug class diversity: 0.1498
+      -> ATC: Alimentary/Metabolism: 0.0724
+      -> ATC: Anti-infectives: 0.0710
+      -> Known side effects: 0.0381
+      -> Target gene count: 0.0306
+  #30 chlorpheniramine maleate: 0.0161
+      -> Drug class diversity: 0.1449
+      -> Target: GPCR: 0.0862
+      -> Target gene count: 0.0487
+      -> Target: Unclassified: 0.0456
+      -> Known side effects: 0.0196
+  #31 maltose: 0.0151
+      -> Target gene count: 0.2181
+      -> Known side effects: 0.1310
+      -> Drug class diversity: 0.0367
+  #32 ammonium chloride: 0.0151
+      -> Target gene count: 0.2220
+      -> ATC: Genitourinary: 0.0526
+      -> Known side effects: 0.0514
+      -> Drug class diversity: 0.0473
+      -> ATC: Blood: 0.0104
+  #33 lutein: 0.0147
+      -> Target gene count: 0.1956
+      -> Known side effects: 0.1589
+      -> Drug class diversity: 0.0195
+  #34 sodium phosphate, monobasic: 0.0136
+      -> Target gene count: 0.2053
+      -> Known side effects: 0.1119
+      -> Drug class diversity: 0.0283
+  #35 docusate sodium: 0.0130
+      -> Drug class diversity: 0.1833
+      -> Known side effects: 0.0953
+      -> ATC: Alimentary/Metabolism: 0.0366
+      -> Target gene count: 0.0161
+  #36 dobutamine hydrochloride: 0.0120
+      -> Drug class diversity: 0.1321
+      -> Target: Kinase: 0.0317
+      -> Target: GPCR: 0.0306
+      -> Known side effects: 0.0264
+      -> Target: Transporter: 0.0213
+  #37 propylene glycol: 0.0111
+      -> Target gene count: 0.1730
+      -> Known side effects: 0.0836
+      -> Drug class diversity: 0.0270
+  #38 hydrocortisone acetate: 0.0097
+      -> Drug class diversity: 0.1378
+      -> Target gene count: 0.0840
+      -> Target: Secreted: 0.0123
+      -> Known side effects: 0.0070
+      -> Action: AGONIST: 0.0046
+  #39 ceftriaxone sodium: 0.0086
+      -> Known side effects: 0.0796
+      -> Target gene count: 0.0602
+      -> Action: INHIBITOR: 0.0366
+      -> Target: Transporter: 0.0261
+      -> Target: Enzyme: 0.0165
+  #40 phenoxyethanol: 0.0081
+      -> Target gene count: 0.1383
+      -> Known side effects: 0.0487
+      -> Drug class diversity: 0.0182
+  #41 sucrose: 0.0081
+      -> Target gene count: 0.1404
+      -> Known side effects: 0.0528
+      -> Drug class diversity: 0.0120
+  #42 amiodarone hydrochloride: 0.0077
+      -> Drug class diversity: 0.0400
+      -> Known side effects: 0.0279
+      -> Target gene count: 0.0250
+      -> Target: Transporter: 0.0226
+      -> Target: Membrane receptor: 0.0205
+  #43 albuterol sulfate: 0.0053
+      -> Target gene count: 0.0517
+      -> Action: AGONIST: 0.0258
+      -> Target: GPCR: 0.0211
+      -> Drug class diversity: 0.0182
+      -> ATC: Respiratory: 0.0166
+  #44 hydromorphone hydrochloride: 0.0051
+      -> Drug class diversity: 0.0380
+      -> Target gene count: 0.0362
+      -> Known side effects: 0.0355
+      -> Action: AGONIST: 0.0116
+      -> ATC: Nervous System: 0.0055
+  #45 umeclidinium bromide: 0.0049
+      -> Target: GPCR: 0.0313
+      -> Target gene count: 0.0234
+      -> Action: ANTAGONIST: 0.0208
+      -> Known side effects: 0.0200
+      -> Drug class diversity: 0.0194
+  #46 metamizole sodium: 0.0048
+      -> Target gene count: 0.0591
+      -> Drug class diversity: 0.0373
+      -> Target: Ion channel: 0.0125
+      -> Action: BLOCKER: 0.0096
+      -> ATC: Nervous System: 0.0039
+  #47 allantoin: 0.0038
+      -> Target gene count: 0.0544
+      -> Drug class diversity: 0.0219
+      -> Known side effects: 0.0217
+  #48 titanium dioxide: 0.0034
+      -> Known side effects: 0.0326
+      -> Target gene count: 0.0308
+      -> Drug class diversity: 0.0241
+
+--- GNNExplainer: Per-Drug Importance ---
+  #1 dobutamine hydrochloride: 0.0551
+  #2 amiodarone hydrochloride: 0.0421
+  #3 chlorpheniramine maleate: 0.0419
+  #4 acetaminophen: 0.0418
+  #5 docusate sodium: 0.0374
+  #6 pyridoxine hydrochloride: 0.0347
+  #7 ceftriaxone sodium: 0.0327
+  #8 hydrocortisone acetate: 0.0322
+  #9 vilanterol trifenatate: 0.0289
+  #10 simvastatin: 0.0276
+  #11 melatonin: 0.0270
+  #12 chloramphenicol: 0.0267
+  #13 insulin degludec: 0.0260
+  #14 lansoprazole: 0.0251
+  #15 riboflavin: 0.0237
+  #16 fluticasone: 0.0237
+  #17 dexlansoprazole: 0.0237
+  #18 ascorbic acid: 0.0224
+  #19 citric acid: 0.0202
+  #20 hydromorphone hydrochloride: 0.0194
+  #21 betamethasone: 0.0192
+  #22 potassium chloride: 0.0192
+  #23 albuterol sulfate: 0.0187
+  #24 umeclidinium bromide: 0.0185
+  #25 metamizole sodium: 0.0184
+  #26 vitamin E: 0.0179
+  #27 stearic acid: 0.0178
+  #28 darbepoetin alfa: 0.0175
+  #29 warfarin: 0.0172
+  #30 sodium chloride: 0.0172
+  #31 nystatin: 0.0170
+  #32 biotin: 0.0151
+  #33 titanium dioxide: 0.0143
+  #34 ammonium chloride: 0.0141
+  #35 sodium bicarbonate: 0.0122
+  #36 calcium carbonate: 0.0118
+  #37 magnesium oxide: 0.0116
+  #38 lanthanum carbonate: 0.0114
+  #39 aluminum hydroxide: 0.0113
+  #40 allantoin: 0.0110
+  #41 polyethylene glycol 4000: 0.0109
+  #42 sucrose: 0.0108
+  #43 magnesium carbonate: 0.0106
+  #44 phenoxyethanol: 0.0092
+  #45 sodium phosphate, monobasic: 0.0091
+  #46 propylene glycol: 0.0087
+  #47 lutein: 0.0086
+  #48 maltose: 0.0082
+
+--- Top Edge Importance ---
+  magnesium carbonate <-> calcium carbonate: 0.8405
+  acetaminophen <-> ammonium chloride: 0.8109
+  magnesium carbonate <-> acetaminophen: 0.8098
+  propylene glycol <-> simvastatin: 0.7700
+  propylene glycol <-> acetaminophen: 0.5222
+
+
+======================================================================
+CASE: True Negative (Low Risk, Correctly Predicted)
+Category: TN
+Predicted Probability: 0.0319
+True Label: LOW RISK
+Predicted Label: LOW RISK
+Drugs: 29 | Edges: 486
+Drug Names: desonide, potassium chloride, acetaminophen, glycerin, aluminum hydroxide, gramicidin, mesalamine, budesonide, simvastatin, zinc oxide, cupric oxide, vitamin E, sodium chloride, calcium citrate, polyethylene glycol 4000, hydromorphone hydrochloride, magnesium oxide, aspirin, sodium bicarbonate, hydrochlorothiazide, levothyroxine, estradiol, calcium carbonate, prednisone, mupirocin calcium, triamcinolone, pregabalin, brexpiprazole, trimethoprim
+======================================================================
+
+--- Gradient Attribution: Per-Drug Importance ---
+  #1 budesonide: 0.0658
+      -> Target gene count: 0.4288
+      -> ATC: Alimentary/Metabolism: 0.2883
+      -> Action: AGONIST: 0.1503
+      -> ATC: Respiratory: 0.1428
+      -> Target: Transcription factor: 0.1206
+  #2 aspirin: 0.0627
+      -> Target gene count: 0.4978
+      -> ATC: Alimentary/Metabolism: 0.3050
+      -> ATC: Blood: 0.2279
+      -> ATC: Cardiovascular: 0.1414
+      -> Target: Ion channel: 0.0975
+  #3 prednisone: 0.0543
+      -> Target gene count: 0.4936
+      -> ATC: Alimentary/Metabolism: 0.3015
+      -> Action: AGONIST: 0.1582
+      -> ATC: Hormones: 0.1337
+      -> Target: Transporter: 0.1136
+  #4 acetaminophen: 0.0507
+      -> Target gene count: 0.4868
+      -> Action: AGONIST: 0.1571
+      -> Action: OPENER: 0.1316
+      -> Target: Unclassified: 0.1136
+      -> Target: Ion channel: 0.0964
+  #5 mesalamine: 0.0476
+      -> Target gene count: 0.4439
+      -> ATC: Alimentary/Metabolism: 0.2866
+      -> Action: AGONIST: 0.1564
+      -> Target: Cytokine: 0.1101
+      -> Known side effects: 0.0741
+  #6 sodium chloride: 0.0470
+      -> Target gene count: 0.4421
+      -> ATC: Alimentary/Metabolism: 0.2860
+      -> ATC: Blood: 0.2153
+      -> ATC: Sensory Organs: 0.1578
+      -> Known side effects: 0.0575
+  #7 levothyroxine: 0.0451
+      -> Target gene count: 0.4408
+      -> Action: AGONIST: 0.1497
+      -> ATC: Hormones: 0.1243
+      -> Target: Transcription factor: 0.1213
+      -> Target: Unclassified: 0.1076
+  #8 simvastatin: 0.0443
+      -> Target gene count: 0.4530
+      -> ATC: Alimentary/Metabolism: 0.2980
+      -> ATC: Cardiovascular: 0.1382
+      -> Target: Nuclear other: 0.0614
+      -> Known side effects: 0.0581
+  #9 potassium chloride: 0.0433
+      -> Target gene count: 0.4524
+      -> ATC: Alimentary/Metabolism: 0.2938
+      -> ATC: Blood: 0.2188
+      -> Known side effects: 0.0567
+      -> Target: Enzyme: 0.0495
+  #10 hydrochlorothiazide: 0.0405
+      -> Target gene count: 0.4522
+      -> ATC: Cardiovascular: 0.1334
+      -> Target: Transporter: 0.1053
+      -> Target: Unclassified: 0.1020
+      -> Target: Ion channel: 0.0914
+  #11 vitamin E: 0.0371
+      -> Target gene count: 0.4075
+      -> ATC: Alimentary/Metabolism: 0.2857
+      -> Target: Transporter: 0.1014
+      -> Known side effects: 0.0641
+      -> Target: Enzyme: 0.0503
+  #12 calcium carbonate: 0.0340
+      -> Target gene count: 0.4692
+      -> ATC: Alimentary/Metabolism: 0.2990
+      -> Known side effects: 0.0613
+      -> Drug class diversity: 0.0255
+  #13 gramicidin: 0.0340
+      -> Target gene count: 0.1595
+      -> Drug class diversity: 0.1459
+      -> Known side effects: 0.1454
+      -> ATC: Respiratory: 0.0989
+      -> Target: GPCR: 0.0968
+  #14 pregabalin: 0.0328
+      -> Target gene count: 0.4492
+      -> Target: Transporter: 0.1060
+      -> Target: Ion channel: 0.0919
+      -> Action: MODULATOR: 0.0759
+      -> Known side effects: 0.0644
+  #15 magnesium oxide: 0.0323
+      -> Target gene count: 0.4310
+      -> ATC: Alimentary/Metabolism: 0.2892
+      -> Known side effects: 0.0590
+      -> Drug class diversity: 0.0337
+  #16 trimethoprim: 0.0304
+      -> Target gene count: 0.4203
+      -> Target: Transporter: 0.1061
+      -> ATC: Anti-infectives: 0.1004
+      -> Known side effects: 0.0632
+      -> Target: Enzyme: 0.0490
+  #17 desonide: 0.0302
+      -> Target gene count: 0.3253
+      -> ATC: Sensory Organs: 0.1367
+      -> Action: AGONIST: 0.1309
+      -> Known side effects: 0.0632
+      -> ATC: Dermatologicals: 0.0529
+  #18 sodium bicarbonate: 0.0302
+      -> Target gene count: 0.4377
+      -> ATC: Blood: 0.2322
+      -> Known side effects: 0.0671
+      -> Drug class diversity: 0.0226
+  #19 triamcinolone: 0.0287
+      -> Target gene count: 0.4491
+      -> Action: AGONIST: 0.1572
+      -> Known side effects: 0.0613
+      -> Target: Nuclear hormone receptor: 0.0299
+      -> Drug class diversity: 0.0251
+  #20 calcium citrate: 0.0287
+      -> Target gene count: 0.3692
+      -> ATC: Alimentary/Metabolism: 0.2776
+      -> Known side effects: 0.0586
+      -> Drug class diversity: 0.0161
+  #21 mupirocin calcium: 0.0283
+      -> Drug class diversity: 0.3464
+      -> Known side effects: 0.1158
+      -> ATC: Respiratory: 0.0708
+      -> ATC: Dermatologicals: 0.0669
+      -> Target gene count: 0.0433
+  #22 glycerin: 0.0277
+      -> Target gene count: 0.3537
+      -> ATC: Alimentary/Metabolism: 0.2663
+      -> Known side effects: 0.0604
+      -> Drug class diversity: 0.0173
+  #23 aluminum hydroxide: 0.0273
+      -> Target gene count: 0.3449
+      -> ATC: Alimentary/Metabolism: 0.2782
+      -> Known side effects: 0.0577
+      -> Drug class diversity: 0.0066
+  #24 polyethylene glycol 4000: 0.0252
+      -> Target gene count: 0.3268
+      -> ATC: Alimentary/Metabolism: 0.2358
+      -> Known side effects: 0.0587
+      -> Drug class diversity: 0.0123
+  #25 cupric oxide: 0.0218
+      -> Target gene count: 0.2329
+      -> Drug class diversity: 0.1979
+      -> Known side effects: 0.1171
+  #26 estradiol: 0.0188
+      -> Target gene count: 0.3929
+      -> Known side effects: 0.0624
+      -> Drug class diversity: 0.0181
+  #27 zinc oxide: 0.0130
+      -> Target gene count: 0.2646
+      -> Known side effects: 0.0518
+      -> Drug class diversity: 0.0100
+  #28 brexpiprazole: 0.0105
+      -> Target gene count: 0.0730
+      -> Drug class diversity: 0.0692
+      -> Target: Transporter: 0.0383
+      -> Action: ANTAGONIST: 0.0263
+      -> Target: GPCR: 0.0233
+  #29 hydromorphone hydrochloride: 0.0076
+      -> Target gene count: 0.0921
+      -> Known side effects: 0.0846
+      -> ATC: Nervous System: 0.0060
+      -> Action: AGONIST: 0.0057
+      -> Target: GPCR: 0.0023
+
+--- GNNExplainer: Per-Drug Importance ---
+  #1 mupirocin calcium: 0.0708
+  #2 gramicidin: 0.0668
+  #3 budesonide: 0.0588
+  #4 acetaminophen: 0.0517
+  #5 brexpiprazole: 0.0516
+  #6 aspirin: 0.0484
+  #7 prednisone: 0.0424
+  #8 mesalamine: 0.0423
+  #9 levothyroxine: 0.0400
+  #10 simvastatin: 0.0396
+  #11 hydrochlorothiazide: 0.0384
+  #12 desonide: 0.0376
+  #13 hydromorphone hydrochloride: 0.0335
+  #14 sodium chloride: 0.0321
+  #15 vitamin E: 0.0297
+  #16 potassium chloride: 0.0294
+  #17 pregabalin: 0.0282
+  #18 cupric oxide: 0.0280
+  #19 trimethoprim: 0.0273
+  #20 aluminum hydroxide: 0.0270
+  #21 calcium carbonate: 0.0266
+  #22 magnesium oxide: 0.0225
+  #23 calcium citrate: 0.0225
+  #24 glycerin: 0.0220
+  #25 polyethylene glycol 4000: 0.0219
+  #26 triamcinolone: 0.0194
+  #27 sodium bicarbonate: 0.0171
+  #28 zinc oxide: 0.0126
+  #29 estradiol: 0.0118
+
+--- Top Edge Importance ---
+  trimethoprim <-> desonide: 0.8851
+  aluminum hydroxide <-> trimethoprim: 0.8719
+  desonide <-> calcium carbonate: 0.8662
+  aluminum hydroxide <-> triamcinolone: 0.8250
+
+
+======================================================================
+CASE: False Positive (Low Risk, Predicted High)
+Category: FP
+Predicted Probability: 0.8892
+True Label: LOW RISK
+Predicted Label: HIGH RISK
+Drugs: 16 | Edges: 36
+Drug Names: diclofenac sodium, furosemide, abacavir, cetirizine hydrochloride, tocilizumab, bupropion hydrochloride, morphine, acetaminophen, quetiapine fumarate, rituximab, albuterol sulfate, ketoprofen, citalopram hydrobromide, diphenhydramine hydrochloride, montelukast sodium, methylprednisolone acetate
+======================================================================
+
+--- Gradient Attribution: Per-Drug Importance ---
+  #1 acetaminophen: 0.1617
+      -> ATC: Nervous System: 0.2385
+      -> Target gene count: 0.2351
+      -> Drug class diversity: 0.1717
+      -> Action: AGONIST: 0.1497
+      -> Action: INHIBITOR: 0.1038
+  #2 furosemide: 0.1214
+      -> Drug class diversity: 0.3512
+      -> Target gene count: 0.2661
+      -> Action: INHIBITOR: 0.1142
+      -> ATC: Cardiovascular: 0.1123
+      -> Known side effects: 0.0640
+  #3 abacavir: 0.1047
+      -> Target: Polyprotein: 0.2120
+      -> Target gene count: 0.2025
+      -> Drug class diversity: 0.1856
+      -> Known side effects: 0.1269
+      -> ATC: Anti-infectives: 0.0784
+  #4 morphine: 0.0887
+      -> Target gene count: 0.2869
+      -> ATC: Nervous System: 0.2377
+      -> Drug class diversity: 0.2060
+      -> Known side effects: 0.0138
+  #5 tocilizumab: 0.0818
+      -> Drug class diversity: 0.2163
+      -> Target gene count: 0.1994
+      -> Known side effects: 0.1321
+      -> ATC: Antineoplastic: 0.0775
+      -> Target: Membrane receptor: 0.0610
+  #6 rituximab: 0.0715
+      -> Target gene count: 0.2456
+      -> Drug class diversity: 0.1411
+      -> ATC: Antineoplastic: 0.1112
+      -> Target: Surface antigen: 0.0849
+      -> Known side effects: 0.0094
+  #7 ketoprofen: 0.0659
+      -> Target gene count: 0.2225
+      -> Drug class diversity: 0.1164
+      -> Action: INHIBITOR: 0.0861
+      -> Known side effects: 0.0817
+      -> Target: Enzyme: 0.0388
+  #8 cetirizine hydrochloride: 0.0540
+      -> Drug class diversity: 0.1336
+      -> Known side effects: 0.1197
+      -> Target gene count: 0.0805
+      -> ATC: Respiratory: 0.0498
+      -> Target: Kinase: 0.0234
+  #9 methylprednisolone acetate: 0.0539
+      -> Drug class diversity: 0.1516
+      -> Known side effects: 0.1243
+      -> Target gene count: 0.1091
+      -> Target: Nuclear hormone receptor: 0.0375
+      -> Action: AGONIST: 0.0305
+  #10 albuterol sulfate: 0.0524
+      -> Target gene count: 0.1263
+      -> Drug class diversity: 0.0912
+      -> ATC: Respiratory: 0.0768
+      -> Action: AGONIST: 0.0651
+      -> Target: GPCR: 0.0618
+  #11 diclofenac sodium: 0.0447
+      -> Target gene count: 0.0659
+      -> Known side effects: 0.0567
+      -> Drug class diversity: 0.0431
+      -> Target: Enzyme: 0.0417
+      -> ATC: Musculoskeletal: 0.0389
+  #12 quetiapine fumarate: 0.0382
+      -> Known side effects: 0.0802
+      -> Target gene count: 0.0466
+      -> Target: Transporter: 0.0354
+      -> Drug class diversity: 0.0266
+      -> Action: ANTAGONIST: 0.0250
+  #13 citalopram hydrobromide: 0.0178
+      -> Known side effects: 0.0382
+      -> Target: Unclassified: 0.0222
+      -> Target gene count: 0.0174
+      -> Target: Enzyme: 0.0141
+      -> Target: Ion channel: 0.0134
+  #14 diphenhydramine hydrochloride: 0.0153
+      -> Known side effects: 0.0256
+      -> ATC: Respiratory: 0.0211
+      -> Target: GPCR: 0.0193
+      -> Action: ANTAGONIST: 0.0148
+      -> Target: Ion channel: 0.0135
+  #15 montelukast sodium: 0.0152
+      -> Drug class diversity: 0.0316
+      -> Action: ANTAGONIST: 0.0259
+      -> Target: Enzyme: 0.0175
+      -> Target gene count: 0.0131
+      -> ATC: Respiratory: 0.0100
+  #16 bupropion hydrochloride: 0.0127
+      -> Target gene count: 0.0345
+      -> Drug class diversity: 0.0263
+      -> ATC: Alimentary/Metabolism: 0.0132
+      -> Target: Transporter: 0.0077
+      -> ATC: Nervous System: 0.0069
+
+--- GNNExplainer: Per-Drug Importance ---
+  #1 diclofenac sodium: 0.1168
+  #2 quetiapine fumarate: 0.0934
+  #3 acetaminophen: 0.0878
+  #4 bupropion hydrochloride: 0.0780
+  #5 diphenhydramine hydrochloride: 0.0779
+  #6 citalopram hydrobromide: 0.0740
+  #7 montelukast sodium: 0.0674
+  #8 cetirizine hydrochloride: 0.0607
+  #9 furosemide: 0.0601
+  #10 abacavir: 0.0476
+  #11 albuterol sulfate: 0.0440
+  #12 tocilizumab: 0.0433
+  #13 rituximab: 0.0425
+  #14 ketoprofen: 0.0403
+  #15 methylprednisolone acetate: 0.0386
+  #16 morphine: 0.0276
+
+--- Top Edge Importance ---
+  furosemide <-> acetaminophen: 0.9451
+  rituximab <-> ketoprofen: 0.9353
+  rituximab <-> acetaminophen: 0.9339
+  abacavir <-> rituximab: 0.9334
+  abacavir <-> acetaminophen: 0.9322
+
+
+======================================================================
+CASE: False Negative (High Risk, Predicted Low)
+Category: FN
+Predicted Probability: 0.0428
+True Label: HIGH RISK
+Predicted Label: LOW RISK
+Drugs: 36 | Edges: 608
+Drug Names: desonide, potassium chloride, acetaminophen, metronidazole benzoate, glycerin, montelukast sodium, gramicidin, fluticasone, atropine, mesalamine, budesonide, simvastatin, zinc oxide, cupric oxide, sodium chloride, vitamin E, hydromorphone hydrochloride, polyethylene glycol 4000, magnesium oxide, betamethasone, alpha-tocopherol acetate, cetirizine hydrochloride, aspirin, nystatin, zinc chloride, sodium bicarbonate, hydrochlorothiazide, nitroglycerin, calcium carbonate, ertapenem, prednisone, isoniazid, triamcinolone, pregabalin, diphenhydramine hydrochloride, trimethoprim
+======================================================================
+
+--- Gradient Attribution: Per-Drug Importance ---
+  #1 metronidazole benzoate: 0.1781
+      -> Drug class diversity: 1.3368
+      -> Known side effects: 0.5706
+      -> Target gene count: 0.3777
+      -> ATC: Genitourinary: 0.3059
+      -> ATC: Dermatologicals: 0.2962
+  #2 acetaminophen: 0.0443
+      -> Target gene count: 0.1490
+      -> Target: Unclassified: 0.1137
+      -> Action: OPENER: 0.0953
+      -> Target: Nuclear hormone receptor: 0.0639
+      -> Target: GPCR: 0.0636
+  #3 budesonide: 0.0441
+      -> ATC: Alimentary/Metabolism: 0.1645
+      -> Target gene count: 0.1314
+      -> Target: Unclassified: 0.0948
+      -> Target: Transporter: 0.0767
+      -> Drug class diversity: 0.0740
+  #4 aspirin: 0.0426
+      -> ATC: Alimentary/Metabolism: 0.1740
+      -> Target gene count: 0.1583
+      -> ATC: Blood: 0.1206
+      -> ATC: Cardiovascular: 0.0771
+      -> Drug class diversity: 0.0719
+  #5 zinc chloride: 0.0413
+      -> Drug class diversity: 0.3411
+      -> Known side effects: 0.1741
+      -> ATC: Blood: 0.0521
+      -> Target gene count: 0.0501
+      -> Target: Kinase: 0.0480
+  #6 prednisone: 0.0394
+      -> ATC: Alimentary/Metabolism: 0.1646
+      -> Target gene count: 0.1274
+      -> ATC: Hormones: 0.0938
+      -> Target: Transporter: 0.0836
+      -> Drug class diversity: 0.0793
+  #7 atropine: 0.0384
+      -> ATC: Alimentary/Metabolism: 0.1587
+      -> Target gene count: 0.1198
+      -> Action: ANTAGONIST: 0.0861
+      -> ATC: Sensory Organs: 0.0811
+      -> Drug class diversity: 0.0752
+  #8 gramicidin: 0.0351
+      -> Target gene count: 0.1200
+      -> Drug class diversity: 0.1139
+      -> Known side effects: 0.1102
+      -> ATC: Respiratory: 0.0781
+      -> Target: GPCR: 0.0727
+  #9 simvastatin: 0.0322
+      -> ATC: Alimentary/Metabolism: 0.1635
+      -> Target gene count: 0.1211
+      -> ATC: Cardiovascular: 0.0731
+      -> Drug class diversity: 0.0683
+      -> Target: Nuclear hormone receptor: 0.0652
+  #10 mesalamine: 0.0316
+      -> ATC: Alimentary/Metabolism: 0.1658
+      -> Target gene count: 0.1571
+      -> Drug class diversity: 0.0646
+      -> Target: Cytokine: 0.0597
+      -> Target: Nuclear hormone receptor: 0.0471
+  #11 hydrochlorothiazide: 0.0303
+      -> Target gene count: 0.1228
+      -> Target: Unclassified: 0.1015
+      -> Target: Transporter: 0.0783
+      -> ATC: Cardiovascular: 0.0709
+      -> Drug class diversity: 0.0705
+  #12 potassium chloride: 0.0297
+      -> ATC: Alimentary/Metabolism: 0.1674
+      -> Target gene count: 0.1380
+      -> ATC: Blood: 0.1174
+      -> Drug class diversity: 0.0616
+      -> Target: Enzyme: 0.0454
+  #13 sodium chloride: 0.0295
+      -> ATC: Alimentary/Metabolism: 0.1570
+      -> Target gene count: 0.1153
+      -> ATC: Blood: 0.1078
+      -> ATC: Sensory Organs: 0.0736
+      -> Drug class diversity: 0.0699
+  #14 nystatin: 0.0253
+      -> ATC: Alimentary/Metabolism: 0.1759
+      -> Target gene count: 0.1691
+      -> ATC: Genitourinary: 0.0563
+      -> Drug class diversity: 0.0542
+      -> Known side effects: 0.0084
+  #15 vitamin E: 0.0248
+      -> ATC: Alimentary/Metabolism: 0.1569
+      -> Target gene count: 0.1154
+      -> Drug class diversity: 0.0826
+      -> Target: Transporter: 0.0678
+      -> Target: Enzyme: 0.0314
+  #16 pregabalin: 0.0238
+      -> Target gene count: 0.1367
+      -> Target: Transporter: 0.0801
+      -> Drug class diversity: 0.0659
+      -> Target: Ion channel: 0.0500
+      -> Action: MODULATOR: 0.0486
+  #17 cupric oxide: 0.0231
+      -> Target gene count: 0.1822
+      -> Drug class diversity: 0.1611
+      -> Known side effects: 0.0874
+  #18 fluticasone: 0.0218
+      -> Target gene count: 0.1244
+      -> Drug class diversity: 0.0637
+      -> Target: Nuclear hormone receptor: 0.0621
+      -> Target: Transcription factor: 0.0535
+      -> Action: AGONIST: 0.0424
+  #19 polyethylene glycol 4000: 0.0217
+      -> Target gene count: 0.1578
+      -> ATC: Alimentary/Metabolism: 0.1523
+      -> Drug class diversity: 0.0562
+      -> Known side effects: 0.0386
+  #20 desonide: 0.0208
+      -> Target gene count: 0.1321
+      -> ATC: Sensory Organs: 0.0841
+      -> Drug class diversity: 0.0675
+      -> Action: AGONIST: 0.0370
+      -> Known side effects: 0.0316
+  #21 calcium carbonate: 0.0205
+      -> ATC: Alimentary/Metabolism: 0.1641
+      -> Target gene count: 0.1303
+      -> Drug class diversity: 0.0619
+      -> Known side effects: 0.0257
+  #22 magnesium oxide: 0.0204
+      -> ATC: Alimentary/Metabolism: 0.1690
+      -> Target gene count: 0.1513
+      -> Drug class diversity: 0.0565
+      -> Known side effects: 0.0028
+  #23 trimethoprim: 0.0197
+      -> Target gene count: 0.1066
+      -> Target: Transporter: 0.0791
+      -> Drug class diversity: 0.0704
+      -> Target: Enzyme: 0.0439
+      -> ATC: Anti-infectives: 0.0309
+  #24 nitroglycerin: 0.0193
+      -> Target gene count: 0.1218
+      -> ATC: Cardiovascular: 0.0727
+      -> Drug class diversity: 0.0698
+      -> Target: Enzyme: 0.0430
+      -> Action: ACTIVATOR: 0.0295
+  #25 betamethasone: 0.0192
+      -> Target gene count: 0.1478
+      -> Drug class diversity: 0.0565
+      -> Target: Nuclear hormone receptor: 0.0516
+      -> Target: GPCR: 0.0488
+      -> Action: AGONIST: 0.0465
+  #26 sodium bicarbonate: 0.0186
+      -> Target gene count: 0.1666
+      -> ATC: Blood: 0.1190
+      -> Drug class diversity: 0.0559
+      -> Known side effects: 0.0059
+  #27 triamcinolone: 0.0183
+      -> Target gene count: 0.1781
+      -> Drug class diversity: 0.0569
+      -> Action: AGONIST: 0.0512
+      -> Target: Nuclear hormone receptor: 0.0495
+      -> Known side effects: 0.0056
+  #28 glycerin: 0.0170
+      -> ATC: Alimentary/Metabolism: 0.1470
+      -> Target gene count: 0.1051
+      -> Drug class diversity: 0.0651
+  #29 ertapenem: 0.0147
+      -> Target gene count: 0.1479
+      -> Drug class diversity: 0.0531
+      -> Known side effects: 0.0390
+      -> Target: Enzyme: 0.0198
+      -> ATC: Anti-infectives: 0.0134
+  #30 isoniazid: 0.0125
+      -> Target gene count: 0.0987
+      -> Drug class diversity: 0.0818
+      -> Target: Enzyme: 0.0325
+      -> ATC: Anti-infectives: 0.0149
+      -> Action: INHIBITOR: 0.0055
+  #31 cetirizine hydrochloride: 0.0087
+      -> Drug class diversity: 0.0643
+      -> Known side effects: 0.0362
+      -> ATC: Sensory Organs: 0.0143
+      -> Action: ANTAGONIST: 0.0134
+      -> Target: Ion channel: 0.0123
+  #32 hydromorphone hydrochloride: 0.0079
+      -> Target gene count: 0.0703
+      -> Known side effects: 0.0639
+      -> Action: AGONIST: 0.0053
+      -> ATC: Nervous System: 0.0048
+      -> Target: GPCR: 0.0015
+  #33 diphenhydramine hydrochloride: 0.0074
+      -> Known side effects: 0.0405
+      -> ATC: Dermatologicals: 0.0253
+      -> ATC: Respiratory: 0.0227
+      -> Target: GPCR: 0.0199
+      -> Target: Ion channel: 0.0150
+  #34 zinc oxide: 0.0070
+      -> Drug class diversity: 0.0618
+      -> Target gene count: 0.0618
+      -> Known side effects: 0.0062
+  #35 alpha-tocopherol acetate: 0.0059
+      -> Target gene count: 0.0747
+      -> Known side effects: 0.0184
+      -> Drug class diversity: 0.0166
+  #36 montelukast sodium: 0.0049
+      -> Drug class diversity: 0.0162
+      -> Target: GPCR: 0.0149
+      -> Action: ANTAGONIST: 0.0148
+      -> ATC: Respiratory: 0.0129
+      -> Target gene count: 0.0117
+
+--- GNNExplainer: Per-Drug Importance ---
+  #1 metronidazole benzoate: 0.0991
+  #2 zinc chloride: 0.0667
+  #3 gramicidin: 0.0580
+  #4 budesonide: 0.0407
+  #5 cetirizine hydrochloride: 0.0406
+  #6 acetaminophen: 0.0392
+  #7 aspirin: 0.0368
+  #8 diphenhydramine hydrochloride: 0.0367
+  #9 hydromorphone hydrochloride: 0.0351
+  #10 atropine: 0.0295
+  #11 montelukast sodium: 0.0291
+  #12 prednisone: 0.0287
+  #13 mesalamine: 0.0281
+  #14 simvastatin: 0.0280
+  #15 cupric oxide: 0.0261
+  #16 fluticasone: 0.0261
+  #17 hydrochlorothiazide: 0.0260
+  #18 alpha-tocopherol acetate: 0.0223
+  #19 pregabalin: 0.0212
+  #20 trimethoprim: 0.0209
+  #21 desonide: 0.0208
+  #22 nystatin: 0.0196
+  #23 ertapenem: 0.0193
+  #24 isoniazid: 0.0192
+  #25 potassium chloride: 0.0190
+  #26 sodium chloride: 0.0182
+  #27 vitamin E: 0.0180
+  #28 betamethasone: 0.0179
+  #29 nitroglycerin: 0.0178
+  #30 triamcinolone: 0.0161
+  #31 glycerin: 0.0136
+  #32 calcium carbonate: 0.0135
+  #33 magnesium oxide: 0.0134
+  #34 sodium bicarbonate: 0.0129
+  #35 polyethylene glycol 4000: 0.0125
+  #36 zinc oxide: 0.0094
+
+--- Top Edge Importance ---
+  triamcinolone <-> desonide: 0.6591
+  nitroglycerin <-> triamcinolone: 0.2113
+  isoniazid <-> calcium carbonate: 0.2037
+  mesalamine <-> prednisone: 0.1985
+  prednisone <-> acetaminophen: 0.1895
+
+
+======================================================================
+CASE: True Positive Case 2
+Category: TP
+Predicted Probability: 0.9973
+True Label: HIGH RISK
+Predicted Label: HIGH RISK
+Drugs: 48 | Edges: 476
+Drug Names: sucrose, potassium chloride, umeclidinium bromide, phenoxyethanol, sodium phosphate, monobasic, ascorbic acid, allantoin, acetaminophen, lutein, aluminum hydroxide, darbepoetin alfa, chlorpheniramine maleate, warfarin, fluticasone, dexlansoprazole, melatonin, ammonium chloride, propylene glycol, insulin degludec, simvastatin, vilanterol trifenatate, vitamin E, sodium chloride, dobutamine hydrochloride, hydromorphone hydrochloride, polyethylene glycol 4000, metamizole sodium, docusate sodium, riboflavin, magnesium oxide, betamethasone, hydrocortisone acetate, stearic acid, nystatin, biotin, sodium bicarbonate, ceftriaxone sodium, titanium dioxide, citric acid, maltose, pyridoxine hydrochloride, calcium carbonate, lanthanum carbonate, amiodarone hydrochloride, lansoprazole, magnesium carbonate, albuterol sulfate, chloramphenicol
+======================================================================
+
+--- Gradient Attribution: Per-Drug Importance ---
+  #1 acetaminophen: 0.0702
+      -> Target gene count: 0.4247
+      -> Target: Cytosolic other: 0.2242
+      -> Known side effects: 0.2023
+      -> Target: Unclassified: 0.1798
+      -> Target: GPCR: 0.1594
+  #2 lansoprazole: 0.0392
+      -> Target gene count: 0.3550
+      -> Known side effects: 0.2263
+      -> Target: Transporter: 0.1294
+      -> Action: INHIBITOR: 0.0726
+      -> Drug class diversity: 0.0719
+  #3 ascorbic acid: 0.0377
+      -> Target gene count: 0.2763
+      -> Known side effects: 0.2287
+      -> Target: Transporter: 0.1172
+      -> ATC: Genitourinary: 0.1105
+      -> ATC: Sensory Organs: 0.0999
+  #4 simvastatin: 0.0361
+      -> Target gene count: 0.3279
+      -> Known side effects: 0.2270
+      -> ATC: Cardiovascular: 0.0910
+      -> Action: INHIBITOR: 0.0670
+      -> Target: Enzyme: 0.0627
+  #5 dexlansoprazole: 0.0327
+      -> Target gene count: 0.2265
+      -> Known side effects: 0.1955
+      -> Target: Unclassified: 0.1221
+      -> Target: Transporter: 0.1013
+      -> Action: INHIBITOR: 0.0671
+  #6 melatonin: 0.0319
+      -> Target gene count: 0.2676
+      -> Known side effects: 0.2083
+      -> Target: GPCR: 0.1151
+      -> Target: Enzyme: 0.0604
+      -> Action: AGONIST: 0.0513
+  #7 warfarin: 0.0309
+      -> Target gene count: 0.3077
+      -> Known side effects: 0.2343
+      -> Action: INHIBITOR: 0.0768
+      -> Target: Enzyme: 0.0727
+      -> Drug class diversity: 0.0485
+  #8 potassium chloride: 0.0301
+      -> Target gene count: 0.3430
+      -> Known side effects: 0.2188
+      -> Drug class diversity: 0.0659
+      -> Target: Enzyme: 0.0656
+      -> ATC: Alimentary/Metabolism: 0.0385
+  #9 vilanterol trifenatate: 0.0300
+      -> Drug class diversity: 0.3479
+      -> Known side effects: 0.1142
+      -> Target gene count: 0.0898
+      -> Target: GPCR: 0.0829
+      -> ATC: Respiratory: 0.0724
+  #10 sodium chloride: 0.0295
+      -> Target gene count: 0.3076
+      -> Known side effects: 0.2113
+      -> ATC: Sensory Organs: 0.1032
+      -> Drug class diversity: 0.0494
+      -> ATC: Blood: 0.0412
+  #11 betamethasone: 0.0295
+      -> Target gene count: 0.2830
+      -> Known side effects: 0.2107
+      -> Target: GPCR: 0.1202
+      -> Target: Nuclear hormone receptor: 0.0553
+      -> Action: AGONIST: 0.0485
+  #12 chloramphenicol: 0.0293
+      -> Target gene count: 0.1813
+      -> Known side effects: 0.1548
+      -> Target: Unclassified: 0.1079
+      -> ATC: Sensory Organs: 0.0826
+      -> ATC: Genitourinary: 0.0728
+  #13 fluticasone: 0.0285
+      -> Target gene count: 0.2844
+      -> Known side effects: 0.2267
+      -> Target: Nuclear hormone receptor: 0.0567
+      -> Action: AGONIST: 0.0515
+      -> Target: Transcription factor: 0.0417
+  #14 vitamin E: 0.0284
+      -> Target gene count: 0.2593
+      -> Known side effects: 0.2252
+      -> Target: Transporter: 0.1162
+      -> Target: Enzyme: 0.0683
+      -> ATC: Alimentary/Metabolism: 0.0329
+  #15 riboflavin: 0.0283
+      -> Target gene count: 0.2307
+      -> Known side effects: 0.1743
+      -> Target: Unclassified: 0.1036
+      -> ATC: Sensory Organs: 0.0915
+      -> Target: Enzyme: 0.0525
+  #16 calcium carbonate: 0.0275
+      -> Target gene count: 0.3603
+      -> Known side effects: 0.2284
+      -> Drug class diversity: 0.0777
+      -> ATC: Alimentary/Metabolism: 0.0344
+  #17 nystatin: 0.0274
+      -> Target gene count: 0.2825
+      -> Known side effects: 0.2261
+      -> ATC: Genitourinary: 0.1152
+      -> Drug class diversity: 0.0356
+      -> ATC: Alimentary/Metabolism: 0.0349
+  #18 darbepoetin alfa: 0.0272
+      -> Target gene count: 0.2779
+      -> Known side effects: 0.2208
+      -> Target: Membrane receptor: 0.0653
+      -> Action: AGONIST: 0.0590
+      -> ATC: Blood: 0.0384
+  #19 insulin degludec: 0.0264
+      -> Known side effects: 0.2888
+      -> Drug class diversity: 0.2198
+      -> ATC: Alimentary/Metabolism: 0.1111
+      -> Target: Kinase: 0.0306
+      -> Target gene count: 0.0153
+  #20 magnesium oxide: 0.0252
+      -> Target gene count: 0.3132
+      -> Known side effects: 0.2106
+      -> Drug class diversity: 0.0733
+      -> ATC: Alimentary/Metabolism: 0.0443
+  #21 citric acid: 0.0251
+      -> Target gene count: 0.1908
+      -> Known side effects: 0.1545
+      -> Action: ACTIVATOR: 0.1351
+      -> Target: Enzyme: 0.0547
+      -> Target: Ion channel: 0.0535
+  #22 sodium bicarbonate: 0.0223
+      -> Target gene count: 0.2704
+      -> Known side effects: 0.2253
+      -> ATC: Blood: 0.0465
+      -> Drug class diversity: 0.0260
+  #23 biotin: 0.0219
+      -> Target gene count: 0.2372
+      -> Known side effects: 0.2024
+      -> Target: Enzyme: 0.0623
+      -> ATC: Alimentary/Metabolism: 0.0367
+      -> Drug class diversity: 0.0201
+  #24 aluminum hydroxide: 0.0184
+      -> Target gene count: 0.2214
+      -> Known side effects: 0.2032
+      -> ATC: Alimentary/Metabolism: 0.0278
+      -> Drug class diversity: 0.0152
+  #25 magnesium carbonate: 0.0176
+      -> Target gene count: 0.2333
+      -> Known side effects: 0.0839
+      -> Drug class diversity: 0.0718
+      -> ATC: Alimentary/Metabolism: 0.0600
+  #26 polyethylene glycol 4000: 0.0174
+      -> Target gene count: 0.2136
+      -> Known side effects: 0.1745
+      -> ATC: Alimentary/Metabolism: 0.0309
+      -> Drug class diversity: 0.0241
+  #27 lanthanum carbonate: 0.0174
+      -> Target gene count: 0.2016
+      -> Known side effects: 0.1706
+      -> ATC: Various: 0.0569
+      -> Drug class diversity: 0.0137
+  #28 stearic acid: 0.0174
+      -> Target: Enzyme: 0.1161
+      -> Known side effects: 0.0944
+      -> Target gene count: 0.0919
+      -> Target: Nuclear hormone receptor: 0.0873
+      -> Drug class diversity: 0.0360
+  #29 pyridoxine hydrochloride: 0.0161
+      -> Drug class diversity: 0.1498
+      -> ATC: Alimentary/Metabolism: 0.0724
+      -> ATC: Anti-infectives: 0.0710
+      -> Known side effects: 0.0381
+      -> Target gene count: 0.0306
+  #30 chlorpheniramine maleate: 0.0161
+      -> Drug class diversity: 0.1449
+      -> Target: GPCR: 0.0862
+      -> Target gene count: 0.0487
+      -> Target: Unclassified: 0.0456
+      -> Known side effects: 0.0196
+  #31 maltose: 0.0151
+      -> Target gene count: 0.2181
+      -> Known side effects: 0.1310
+      -> Drug class diversity: 0.0367
+  #32 ammonium chloride: 0.0151
+      -> Target gene count: 0.2220
+      -> ATC: Genitourinary: 0.0526
+      -> Known side effects: 0.0514
+      -> Drug class diversity: 0.0473
+      -> ATC: Blood: 0.0104
+  #33 lutein: 0.0147
+      -> Target gene count: 0.1956
+      -> Known side effects: 0.1589
+      -> Drug class diversity: 0.0195
+  #34 sodium phosphate, monobasic: 0.0136
+      -> Target gene count: 0.2053
+      -> Known side effects: 0.1119
+      -> Drug class diversity: 0.0283
+  #35 docusate sodium: 0.0130
+      -> Drug class diversity: 0.1833
+      -> Known side effects: 0.0953
+      -> ATC: Alimentary/Metabolism: 0.0366
+      -> Target gene count: 0.0161
+  #36 dobutamine hydrochloride: 0.0120
+      -> Drug class diversity: 0.1321
+      -> Target: Kinase: 0.0317
+      -> Target: GPCR: 0.0306
+      -> Known side effects: 0.0264
+      -> Target: Transporter: 0.0213
+  #37 propylene glycol: 0.0111
+      -> Target gene count: 0.1730
+      -> Known side effects: 0.0836
+      -> Drug class diversity: 0.0270
+  #38 hydrocortisone acetate: 0.0097
+      -> Drug class diversity: 0.1378
+      -> Target gene count: 0.0840
+      -> Target: Secreted: 0.0123
+      -> Known side effects: 0.0070
+      -> Action: AGONIST: 0.0046
+  #39 ceftriaxone sodium: 0.0086
+      -> Known side effects: 0.0796
+      -> Target gene count: 0.0602
+      -> Action: INHIBITOR: 0.0366
+      -> Target: Transporter: 0.0261
+      -> Target: Enzyme: 0.0165
+  #40 phenoxyethanol: 0.0081
+      -> Target gene count: 0.1383
+      -> Known side effects: 0.0487
+      -> Drug class diversity: 0.0182
+  #41 sucrose: 0.0081
+      -> Target gene count: 0.1404
+      -> Known side effects: 0.0528
+      -> Drug class diversity: 0.0120
+  #42 amiodarone hydrochloride: 0.0077
+      -> Drug class diversity: 0.0400
+      -> Known side effects: 0.0279
+      -> Target gene count: 0.0250
+      -> Target: Transporter: 0.0226
+      -> Target: Membrane receptor: 0.0205
+  #43 albuterol sulfate: 0.0053
+      -> Target gene count: 0.0517
+      -> Action: AGONIST: 0.0258
+      -> Target: GPCR: 0.0211
+      -> Drug class diversity: 0.0182
+      -> ATC: Respiratory: 0.0166
+  #44 hydromorphone hydrochloride: 0.0051
+      -> Drug class diversity: 0.0380
+      -> Target gene count: 0.0362
+      -> Known side effects: 0.0355
+      -> Action: AGONIST: 0.0116
+      -> ATC: Nervous System: 0.0055
+  #45 umeclidinium bromide: 0.0049
+      -> Target: GPCR: 0.0313
+      -> Target gene count: 0.0234
+      -> Action: ANTAGONIST: 0.0208
+      -> Known side effects: 0.0200
+      -> Drug class diversity: 0.0194
+  #46 metamizole sodium: 0.0048
+      -> Target gene count: 0.0591
+      -> Drug class diversity: 0.0373
+      -> Target: Ion channel: 0.0125
+      -> Action: BLOCKER: 0.0096
+      -> ATC: Nervous System: 0.0039
+  #47 allantoin: 0.0038
+      -> Target gene count: 0.0544
+      -> Drug class diversity: 0.0219
+      -> Known side effects: 0.0217
+  #48 titanium dioxide: 0.0034
+      -> Known side effects: 0.0326
+      -> Target gene count: 0.0308
+      -> Drug class diversity: 0.0241
+
+--- GNNExplainer: Per-Drug Importance ---
+  #1 dobutamine hydrochloride: 0.0494
+  #2 acetaminophen: 0.0420
+  #3 amiodarone hydrochloride: 0.0420
+  #4 chlorpheniramine maleate: 0.0396
+  #5 docusate sodium: 0.0367
+  #6 hydrocortisone acetate: 0.0344
+  #7 pyridoxine hydrochloride: 0.0342
+  #8 insulin degludec: 0.0325
+  #9 ceftriaxone sodium: 0.0307
+  #10 vilanterol trifenatate: 0.0283
+  #11 melatonin: 0.0277
+  #12 simvastatin: 0.0275
+  #13 chloramphenicol: 0.0267
+  #14 fluticasone: 0.0246
+  #15 lansoprazole: 0.0240
+  #16 dexlansoprazole: 0.0237
+  #17 riboflavin: 0.0234
+  #18 ascorbic acid: 0.0226
+  #19 citric acid: 0.0202
+  #20 stearic acid: 0.0199
+  #21 metamizole sodium: 0.0192
+  #22 hydromorphone hydrochloride: 0.0188
+  #23 albuterol sulfate: 0.0186
+  #24 vitamin E: 0.0185
+  #25 titanium dioxide: 0.0185
+  #26 umeclidinium bromide: 0.0181
+  #27 warfarin: 0.0180
+  #28 potassium chloride: 0.0179
+  #29 betamethasone: 0.0179
+  #30 sodium chloride: 0.0175
+  #31 darbepoetin alfa: 0.0172
+  #32 nystatin: 0.0167
+  #33 biotin: 0.0150
+  #34 ammonium chloride: 0.0143
+  #35 sodium bicarbonate: 0.0120
+  #36 lanthanum carbonate: 0.0117
+  #37 polyethylene glycol 4000: 0.0115
+  #38 aluminum hydroxide: 0.0113
+  #39 magnesium carbonate: 0.0113
+  #40 magnesium oxide: 0.0112
+  #41 calcium carbonate: 0.0112
+  #42 allantoin: 0.0101
+  #43 sucrose: 0.0094
+  #44 phenoxyethanol: 0.0092
+  #45 maltose: 0.0091
+  #46 sodium phosphate, monobasic: 0.0089
+  #47 lutein: 0.0083
+  #48 propylene glycol: 0.0083
+
+--- Top Edge Importance ---
+  magnesium carbonate <-> acetaminophen: 0.8055
+  propylene glycol <-> acetaminophen: 0.7998
+  acetaminophen <-> ammonium chloride: 0.7978
+  magnesium carbonate <-> calcium carbonate: 0.7753
+  propylene glycol <-> simvastatin: 0.4321
+
+

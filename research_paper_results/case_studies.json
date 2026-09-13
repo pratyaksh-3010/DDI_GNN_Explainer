@@ -1,0 +1,6563 @@
+[
+  {
+    "title": "True Positive (High Risk, Correctly Predicted)",
+    "category": "TP",
+    "probability": 0.9973,
+    "true_label": 1,
+    "predicted_label": 1,
+    "n_drugs": 48,
+    "n_edges": 476,
+    "drugs": [
+      "sucrose",
+      "potassium chloride",
+      "umeclidinium bromide",
+      "phenoxyethanol",
+      "sodium phosphate, monobasic",
+      "ascorbic acid",
+      "allantoin",
+      "acetaminophen",
+      "lutein",
+      "aluminum hydroxide",
+      "darbepoetin alfa",
+      "chlorpheniramine maleate",
+      "warfarin",
+      "fluticasone",
+      "dexlansoprazole",
+      "melatonin",
+      "ammonium chloride",
+      "propylene glycol",
+      "insulin degludec",
+      "simvastatin",
+      "vilanterol trifenatate",
+      "vitamin E",
+      "sodium chloride",
+      "dobutamine hydrochloride",
+      "hydromorphone hydrochloride",
+      "polyethylene glycol 4000",
+      "metamizole sodium",
+      "docusate sodium",
+      "riboflavin",
+      "magnesium oxide",
+      "betamethasone",
+      "hydrocortisone acetate",
+      "stearic acid",
+      "nystatin",
+      "biotin",
+      "sodium bicarbonate",
+      "ceftriaxone sodium",
+      "titanium dioxide",
+      "citric acid",
+      "maltose",
+      "pyridoxine hydrochloride",
+      "calcium carbonate",
+      "lanthanum carbonate",
+      "amiodarone hydrochloride",
+      "lansoprazole",
+      "magnesium carbonate",
+      "albuterol sulfate",
+      "chloramphenicol"
+    ],
+    "drug_importance": [
+      {
+        "rank": 1,
+        "name": "acetaminophen",
+        "importance": 0.0702,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.4247
+          },
+          {
+            "feature": "Target: Cytosolic other",
+            "raw_name": "tc_Cytosolic other",
+            "score": 0.2242
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2023
+          },
+          {
+            "feature": "Target: Unclassified",
+            "raw_name": "tc_Unclassified",
+            "score": 0.1798
+          },
+          {
+            "feature": "Target: GPCR",
+            "raw_name": "tc_GPCR",
+            "score": 0.1594
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "lansoprazole",
+        "importance": 0.0392,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.355
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2263
+          },
+          {
+            "feature": "Target: Transporter",
+            "raw_name": "tc_Transporter",
+            "score": 0.1294
+          },
+          {
+            "feature": "Action: INHIBITOR",
+            "raw_name": "at_INHIBITOR",
+            "score": 0.0726
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0719
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "ascorbic acid",
+        "importance": 0.0377,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2763
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2287
+          },
+          {
+            "feature": "Target: Transporter",
+            "raw_name": "tc_Transporter",
+            "score": 0.1172
+          },
+          {
+            "feature": "ATC: Genitourinary",
+            "raw_name": "atc_l1_G",
+            "score": 0.1105
+          },
+          {
+            "feature": "ATC: Sensory Organs",
+            "raw_name": "atc_l1_S",
+            "score": 0.0999
+          }
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "simvastatin",
+        "importance": 0.0361,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.3279
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.227
+          },
+          {
+            "feature": "ATC: Cardiovascular",
+            "raw_name": "atc_l1_C",
+            "score": 0.091
+          },
+          {
+            "feature": "Action: INHIBITOR",
+            "raw_name": "at_INHIBITOR",
+            "score": 0.067
+          },
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.0627
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "dexlansoprazole",
+        "importance": 0.0327,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2265
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.1955
+          },
+          {
+            "feature": "Target: Unclassified",
+            "raw_name": "tc_Unclassified",
+            "score": 0.1221
+          },
+          {
+            "feature": "Target: Transporter",
+            "raw_name": "tc_Transporter",
+            "score": 0.1013
+          },
+          {
+            "feature": "Action: INHIBITOR",
+            "raw_name": "at_INHIBITOR",
+            "score": 0.0671
+          }
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "melatonin",
+        "importance": 0.0319,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2676
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2083
+          },
+          {
+            "feature": "Target: GPCR",
+            "raw_name": "tc_GPCR",
+            "score": 0.1151
+          },
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.0604
+          },
+          {
+            "feature": "Action: AGONIST",
+            "raw_name": "at_AGONIST",
+            "score": 0.0513
+          }
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "warfarin",
+        "importance": 0.0309,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.3077
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2343
+          },
+          {
+            "feature": "Action: INHIBITOR",
+            "raw_name": "at_INHIBITOR",
+            "score": 0.0768
+          },
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.0727
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0485
+          }
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "potassium chloride",
+        "importance": 0.0301,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.343
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2188
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0659
+          },
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.0656
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.0385
+          }
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "vilanterol trifenatate",
+        "importance": 0.03,
+        "top_features": [
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.3479
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.1142
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0898
+          },
+          {
+            "feature": "Target: GPCR",
+            "raw_name": "tc_GPCR",
+            "score": 0.0829
+          },
+          {
+            "feature": "ATC: Respiratory",
+            "raw_name": "atc_l1_R",
+            "score": 0.0724
+          }
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "sodium chloride",
+        "importance": 0.0295,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.3076
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2113
+          },
+          {
+            "feature": "ATC: Sensory Organs",
+            "raw_name": "atc_l1_S",
+            "score": 0.1032
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0494
+          },
+          {
+            "feature": "ATC: Blood",
+            "raw_name": "atc_l1_B",
+            "score": 0.0412
+          }
+        ]
+      },
+      {
+        "rank": 11,
+        "name": "betamethasone",
+        "importance": 0.0295,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.283
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2107
+          },
+          {
+            "feature": "Target: GPCR",
+            "raw_name": "tc_GPCR",
+            "score": 0.1202
+          },
+          {
+            "feature": "Target: Nuclear hormone receptor",
+            "raw_name": "tc_Nuclear hormone receptor",
+            "score": 0.0553
+          },
+          {
+            "feature": "Action: AGONIST",
+            "raw_name": "at_AGONIST",
+            "score": 0.0485
+          }
+        ]
+      },
+      {
+        "rank": 12,
+        "name": "chloramphenicol",
+        "importance": 0.0293,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1813
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.1548
+          },
+          {
+            "feature": "Target: Unclassified",
+            "raw_name": "tc_Unclassified",
+            "score": 0.1079
+          },
+          {
+            "feature": "ATC: Sensory Organs",
+            "raw_name": "atc_l1_S",
+            "score": 0.0826
+          },
+          {
+            "feature": "ATC: Genitourinary",
+            "raw_name": "atc_l1_G",
+            "score": 0.0728
+          }
+        ]
+      },
+      {
+        "rank": 13,
+        "name": "fluticasone",
+        "importance": 0.0285,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2844
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2267
+          },
+          {
+            "feature": "Target: Nuclear hormone receptor",
+            "raw_name": "tc_Nuclear hormone receptor",
+            "score": 0.0567
+          },
+          {
+            "feature": "Action: AGONIST",
+            "raw_name": "at_AGONIST",
+            "score": 0.0515
+          },
+          {
+            "feature": "Target: Transcription factor",
+            "raw_name": "tc_Transcription factor",
+            "score": 0.0417
+          }
+        ]
+      },
+      {
+        "rank": 14,
+        "name": "vitamin E",
+        "importance": 0.0284,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2593
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2252
+          },
+          {
+            "feature": "Target: Transporter",
+            "raw_name": "tc_Transporter",
+            "score": 0.1162
+          },
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.0683
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.0329
+          }
+        ]
+      },
+      {
+        "rank": 15,
+        "name": "riboflavin",
+        "importance": 0.0283,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2307
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.1743
+          },
+          {
+            "feature": "Target: Unclassified",
+            "raw_name": "tc_Unclassified",
+            "score": 0.1036
+          },
+          {
+            "feature": "ATC: Sensory Organs",
+            "raw_name": "atc_l1_S",
+            "score": 0.0915
+          },
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.0525
+          }
+        ]
+      },
+      {
+        "rank": 16,
+        "name": "calcium carbonate",
+        "importance": 0.0275,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.3603
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2284
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0777
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.0344
+          }
+        ]
+      },
+      {
+        "rank": 17,
+        "name": "nystatin",
+        "importance": 0.0274,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2825
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2261
+          },
+          {
+            "feature": "ATC: Genitourinary",
+            "raw_name": "atc_l1_G",
+            "score": 0.1152
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0356
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.0349
+          }
+        ]
+      },
+      {
+        "rank": 18,
+        "name": "darbepoetin alfa",
+        "importance": 0.0272,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2779
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2208
+          },
+          {
+            "feature": "Target: Membrane receptor",
+            "raw_name": "tc_Membrane receptor",
+            "score": 0.0653
+          },
+          {
+            "feature": "Action: AGONIST",
+            "raw_name": "at_AGONIST",
+            "score": 0.059
+          },
+          {
+            "feature": "ATC: Blood",
+            "raw_name": "atc_l1_B",
+            "score": 0.0384
+          }
+        ]
+      },
+      {
+        "rank": 19,
+        "name": "insulin degludec",
+        "importance": 0.0264,
+        "top_features": [
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2888
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.2198
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.1111
+          },
+          {
+            "feature": "Target: Kinase",
+            "raw_name": "tc_Kinase",
+            "score": 0.0306
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0153
+          }
+        ]
+      },
+      {
+        "rank": 20,
+        "name": "magnesium oxide",
+        "importance": 0.0252,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.3132
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2106
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0733
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.0443
+          }
+        ]
+      },
+      {
+        "rank": 21,
+        "name": "citric acid",
+        "importance": 0.0251,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1908
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.1545
+          },
+          {
+            "feature": "Action: ACTIVATOR",
+            "raw_name": "at_ACTIVATOR",
+            "score": 0.1351
+          },
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.0547
+          },
+          {
+            "feature": "Target: Ion channel",
+            "raw_name": "tc_Ion channel",
+            "score": 0.0535
+          }
+        ]
+      },
+      {
+        "rank": 22,
+        "name": "sodium bicarbonate",
+        "importance": 0.0223,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2704
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2253
+          },
+          {
+            "feature": "ATC: Blood",
+            "raw_name": "atc_l1_B",
+            "score": 0.0465
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.026
+          }
+        ]
+      },
+      {
+        "rank": 23,
+        "name": "biotin",
+        "importance": 0.0219,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2372
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2024
+          },
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.0623
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.0367
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0201
+          }
+        ]
+      },
+      {
+        "rank": 24,
+        "name": "aluminum hydroxide",
+        "importance": 0.0184,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2214
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2032
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.0278
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0152
+          }
+        ]
+      },
+      {
+        "rank": 25,
+        "name": "magnesium carbonate",
+        "importance": 0.0176,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2333
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0839
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0718
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.06
+          }
+        ]
+      },
+      {
+        "rank": 26,
+        "name": "polyethylene glycol 4000",
+        "importance": 0.0174,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2136
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.1745
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.0309
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0241
+          }
+        ]
+      },
+      {
+        "rank": 27,
+        "name": "lanthanum carbonate",
+        "importance": 0.0174,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2016
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.1706
+          },
+          {
+            "feature": "ATC: Various",
+            "raw_name": "atc_l1_V",
+            "score": 0.0569
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0137
+          }
+        ]
+      },
+      {
+        "rank": 28,
+        "name": "stearic acid",
+        "importance": 0.0174,
+        "top_features": [
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.1161
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0944
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0919
+          },
+          {
+            "feature": "Target: Nuclear hormone receptor",
+            "raw_name": "tc_Nuclear hormone receptor",
+            "score": 0.0873
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.036
+          }
+        ]
+      },
+      {
+        "rank": 29,
+        "name": "pyridoxine hydrochloride",
+        "importance": 0.0161,
+        "top_features": [
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.1498
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.0724
+          },
+          {
+            "feature": "ATC: Anti-infectives",
+            "raw_name": "atc_l1_J",
+            "score": 0.071
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0381
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0306
+          }
+        ]
+      },
+      {
+        "rank": 30,
+        "name": "chlorpheniramine maleate",
+        "importance": 0.0161,
+        "top_features": [
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.1449
+          },
+          {
+            "feature": "Target: GPCR",
+            "raw_name": "tc_GPCR",
+            "score": 0.0862
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0487
+          },
+          {
+            "feature": "Target: Unclassified",
+            "raw_name": "tc_Unclassified",
+            "score": 0.0456
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0196
+          }
+        ]
+      },
+      {
+        "rank": 31,
+        "name": "maltose",
+        "importance": 0.0151,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2181
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.131
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0367
+          }
+        ]
+      },
+      {
+        "rank": 32,
+        "name": "ammonium chloride",
+        "importance": 0.0151,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.222
+          },
+          {
+            "feature": "ATC: Genitourinary",
+            "raw_name": "atc_l1_G",
+            "score": 0.0526
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0514
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0473
+          },
+          {
+            "feature": "ATC: Blood",
+            "raw_name": "atc_l1_B",
+            "score": 0.0104
+          }
+        ]
+      },
+      {
+        "rank": 33,
+        "name": "lutein",
+        "importance": 0.0147,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1956
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.1589
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0195
+          }
+        ]
+      },
+      {
+        "rank": 34,
+        "name": "sodium phosphate, monobasic",
+        "importance": 0.0136,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2053
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.1119
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0283
+          }
+        ]
+      },
+      {
+        "rank": 35,
+        "name": "docusate sodium",
+        "importance": 0.013,
+        "top_features": [
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.1833
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0953
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.0366
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0161
+          }
+        ]
+      },
+      {
+        "rank": 36,
+        "name": "dobutamine hydrochloride",
+        "importance": 0.012,
+        "top_features": [
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.1321
+          },
+          {
+            "feature": "Target: Kinase",
+            "raw_name": "tc_Kinase",
+            "score": 0.0317
+          },
+          {
+            "feature": "Target: GPCR",
+            "raw_name": "tc_GPCR",
+            "score": 0.0306
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0264
+          },
+          {
+            "feature": "Target: Transporter",
+            "raw_name": "tc_Transporter",
+            "score": 0.0213
+          }
+        ]
+      },
+      {
+        "rank": 37,
+        "name": "propylene glycol",
+        "importance": 0.0111,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.173
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0836
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.027
+          }
+        ]
+      },
+      {
+        "rank": 38,
+        "name": "hydrocortisone acetate",
+        "importance": 0.0097,
+        "top_features": [
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.1378
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.084
+          },
+          {
+            "feature": "Target: Secreted",
+            "raw_name": "tc_Secreted",
+            "score": 0.0123
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.007
+          },
+          {
+            "feature": "Action: AGONIST",
+            "raw_name": "at_AGONIST",
+            "score": 0.0046
+          }
+        ]
+      },
+      {
+        "rank": 39,
+        "name": "ceftriaxone sodium",
+        "importance": 0.0086,
+        "top_features": [
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0796
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0602
+          },
+          {
+            "feature": "Action: INHIBITOR",
+            "raw_name": "at_INHIBITOR",
+            "score": 0.0366
+          },
+          {
+            "feature": "Target: Transporter",
+            "raw_name": "tc_Transporter",
+            "score": 0.0261
+          },
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.0165
+          }
+        ]
+      },
+      {
+        "rank": 40,
+        "name": "phenoxyethanol",
+        "importance": 0.0081,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1383
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0487
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0182
+          }
+        ]
+      },
+      {
+        "rank": 41,
+        "name": "sucrose",
+        "importance": 0.0081,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1404
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0528
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.012
+          }
+        ]
+      },
+      {
+        "rank": 42,
+        "name": "amiodarone hydrochloride",
+        "importance": 0.0077,
+        "top_features": [
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.04
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0279
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.025
+          },
+          {
+            "feature": "Target: Transporter",
+            "raw_name": "tc_Transporter",
+            "score": 0.0226
+          },
+          {
+            "feature": "Target: Membrane receptor",
+            "raw_name": "tc_Membrane receptor",
+            "score": 0.0205
+          }
+        ]
+      },
+      {
+        "rank": 43,
+        "name": "albuterol sulfate",
+        "importance": 0.0053,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0517
+          },
+          {
+            "feature": "Action: AGONIST",
+            "raw_name": "at_AGONIST",
+            "score": 0.0258
+          },
+          {
+            "feature": "Target: GPCR",
+            "raw_name": "tc_GPCR",
+            "score": 0.0211
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0182
+          },
+          {
+            "feature": "ATC: Respiratory",
+            "raw_name": "atc_l1_R",
+            "score": 0.0166
+          }
+        ]
+      },
+      {
+        "rank": 44,
+        "name": "hydromorphone hydrochloride",
+        "importance": 0.0051,
+        "top_features": [
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.038
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0362
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0355
+          },
+          {
+            "feature": "Action: AGONIST",
+            "raw_name": "at_AGONIST",
+            "score": 0.0116
+          },
+          {
+            "feature": "ATC: Nervous System",
+            "raw_name": "atc_l1_N",
+            "score": 0.0055
+          }
+        ]
+      },
+      {
+        "rank": 45,
+        "name": "umeclidinium bromide",
+        "importance": 0.0049,
+        "top_features": [
+          {
+            "feature": "Target: GPCR",
+            "raw_name": "tc_GPCR",
+            "score": 0.0313
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0234
+          },
+          {
+            "feature": "Action: ANTAGONIST",
+            "raw_name": "at_ANTAGONIST",
+            "score": 0.0208
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.02
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0194
+          }
+        ]
+      },
+      {
+        "rank": 46,
+        "name": "metamizole sodium",
+        "importance": 0.0048,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0591
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0373
+          },
+          {
+            "feature": "Target: Ion channel",
+            "raw_name": "tc_Ion channel",
+            "score": 0.0125
+          },
+          {
+            "feature": "Action: BLOCKER",
+            "raw_name": "at_BLOCKER",
+            "score": 0.0096
+          },
+          {
+            "feature": "ATC: Nervous System",
+            "raw_name": "atc_l1_N",
+            "score": 0.0039
+          }
+        ]
+      },
+      {
+        "rank": 47,
+        "name": "allantoin",
+        "importance": 0.0038,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0544
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0219
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0217
+          }
+        ]
+      },
+      {
+        "rank": 48,
+        "name": "titanium dioxide",
+        "importance": 0.0034,
+        "top_features": [
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0326
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0308
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0241
+          }
+        ]
+      }
+    ],
+    "gnnexplainer_importance": [
+      {
+        "rank": 1,
+        "name": "dobutamine hydrochloride",
+        "importance": 0.0551
+      },
+      {
+        "rank": 2,
+        "name": "amiodarone hydrochloride",
+        "importance": 0.0421
+      },
+      {
+        "rank": 3,
+        "name": "chlorpheniramine maleate",
+        "importance": 0.0419
+      },
+      {
+        "rank": 4,
+        "name": "acetaminophen",
+        "importance": 0.0418
+      },
+      {
+        "rank": 5,
+        "name": "docusate sodium",
+        "importance": 0.0374
+      },
+      {
+        "rank": 6,
+        "name": "pyridoxine hydrochloride",
+        "importance": 0.0347
+      },
+      {
+        "rank": 7,
+        "name": "ceftriaxone sodium",
+        "importance": 0.0327
+      },
+      {
+        "rank": 8,
+        "name": "hydrocortisone acetate",
+        "importance": 0.0322
+      },
+      {
+        "rank": 9,
+        "name": "vilanterol trifenatate",
+        "importance": 0.0289
+      },
+      {
+        "rank": 10,
+        "name": "simvastatin",
+        "importance": 0.0276
+      },
+      {
+        "rank": 11,
+        "name": "melatonin",
+        "importance": 0.027
+      },
+      {
+        "rank": 12,
+        "name": "chloramphenicol",
+        "importance": 0.0267
+      },
+      {
+        "rank": 13,
+        "name": "insulin degludec",
+        "importance": 0.026
+      },
+      {
+        "rank": 14,
+        "name": "lansoprazole",
+        "importance": 0.0251
+      },
+      {
+        "rank": 15,
+        "name": "riboflavin",
+        "importance": 0.0237
+      },
+      {
+        "rank": 16,
+        "name": "fluticasone",
+        "importance": 0.0237
+      },
+      {
+        "rank": 17,
+        "name": "dexlansoprazole",
+        "importance": 0.0237
+      },
+      {
+        "rank": 18,
+        "name": "ascorbic acid",
+        "importance": 0.0224
+      },
+      {
+        "rank": 19,
+        "name": "citric acid",
+        "importance": 0.0202
+      },
+      {
+        "rank": 20,
+        "name": "hydromorphone hydrochloride",
+        "importance": 0.0194
+      },
+      {
+        "rank": 21,
+        "name": "betamethasone",
+        "importance": 0.0192
+      },
+      {
+        "rank": 22,
+        "name": "potassium chloride",
+        "importance": 0.0192
+      },
+      {
+        "rank": 23,
+        "name": "albuterol sulfate",
+        "importance": 0.0187
+      },
+      {
+        "rank": 24,
+        "name": "umeclidinium bromide",
+        "importance": 0.0185
+      },
+      {
+        "rank": 25,
+        "name": "metamizole sodium",
+        "importance": 0.0184
+      },
+      {
+        "rank": 26,
+        "name": "vitamin E",
+        "importance": 0.0179
+      },
+      {
+        "rank": 27,
+        "name": "stearic acid",
+        "importance": 0.0178
+      },
+      {
+        "rank": 28,
+        "name": "darbepoetin alfa",
+        "importance": 0.0175
+      },
+      {
+        "rank": 29,
+        "name": "warfarin",
+        "importance": 0.0172
+      },
+      {
+        "rank": 30,
+        "name": "sodium chloride",
+        "importance": 0.0172
+      },
+      {
+        "rank": 31,
+        "name": "nystatin",
+        "importance": 0.017
+      },
+      {
+        "rank": 32,
+        "name": "biotin",
+        "importance": 0.0151
+      },
+      {
+        "rank": 33,
+        "name": "titanium dioxide",
+        "importance": 0.0143
+      },
+      {
+        "rank": 34,
+        "name": "ammonium chloride",
+        "importance": 0.0141
+      },
+      {
+        "rank": 35,
+        "name": "sodium bicarbonate",
+        "importance": 0.0122
+      },
+      {
+        "rank": 36,
+        "name": "calcium carbonate",
+        "importance": 0.0118
+      },
+      {
+        "rank": 37,
+        "name": "magnesium oxide",
+        "importance": 0.0116
+      },
+      {
+        "rank": 38,
+        "name": "lanthanum carbonate",
+        "importance": 0.0114
+      },
+      {
+        "rank": 39,
+        "name": "aluminum hydroxide",
+        "importance": 0.0113
+      },
+      {
+        "rank": 40,
+        "name": "allantoin",
+        "importance": 0.011
+      },
+      {
+        "rank": 41,
+        "name": "polyethylene glycol 4000",
+        "importance": 0.0109
+      },
+      {
+        "rank": 42,
+        "name": "sucrose",
+        "importance": 0.0108
+      },
+      {
+        "rank": 43,
+        "name": "magnesium carbonate",
+        "importance": 0.0106
+      },
+      {
+        "rank": 44,
+        "name": "phenoxyethanol",
+        "importance": 0.0092
+      },
+      {
+        "rank": 45,
+        "name": "sodium phosphate, monobasic",
+        "importance": 0.0091
+      },
+      {
+        "rank": 46,
+        "name": "propylene glycol",
+        "importance": 0.0087
+      },
+      {
+        "rank": 47,
+        "name": "lutein",
+        "importance": 0.0086
+      },
+      {
+        "rank": 48,
+        "name": "maltose",
+        "importance": 0.0082
+      }
+    ],
+    "top_edge_importance": [
+      {
+        "drug1": "magnesium carbonate",
+        "drug2": "calcium carbonate",
+        "importance": 0.8405
+      },
+      {
+        "drug1": "acetaminophen",
+        "drug2": "ammonium chloride",
+        "importance": 0.8109
+      },
+      {
+        "drug1": "magnesium carbonate",
+        "drug2": "acetaminophen",
+        "importance": 0.8098
+      },
+      {
+        "drug1": "propylene glycol",
+        "drug2": "simvastatin",
+        "importance": 0.77
+      },
+      {
+        "drug1": "propylene glycol",
+        "drug2": "acetaminophen",
+        "importance": 0.5222
+      }
+    ]
+  },
+  {
+    "title": "True Negative (Low Risk, Correctly Predicted)",
+    "category": "TN",
+    "probability": 0.0319,
+    "true_label": 0,
+    "predicted_label": 0,
+    "n_drugs": 29,
+    "n_edges": 486,
+    "drugs": [
+      "desonide",
+      "potassium chloride",
+      "acetaminophen",
+      "glycerin",
+      "aluminum hydroxide",
+      "gramicidin",
+      "mesalamine",
+      "budesonide",
+      "simvastatin",
+      "zinc oxide",
+      "cupric oxide",
+      "vitamin E",
+      "sodium chloride",
+      "calcium citrate",
+      "polyethylene glycol 4000",
+      "hydromorphone hydrochloride",
+      "magnesium oxide",
+      "aspirin",
+      "sodium bicarbonate",
+      "hydrochlorothiazide",
+      "levothyroxine",
+      "estradiol",
+      "calcium carbonate",
+      "prednisone",
+      "mupirocin calcium",
+      "triamcinolone",
+      "pregabalin",
+      "brexpiprazole",
+      "trimethoprim"
+    ],
+    "drug_importance": [
+      {
+        "rank": 1,
+        "name": "budesonide",
+        "importance": 0.0658,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.4288
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.2883
+          },
+          {
+            "feature": "Action: AGONIST",
+            "raw_name": "at_AGONIST",
+            "score": 0.1503
+          },
+          {
+            "feature": "ATC: Respiratory",
+            "raw_name": "atc_l1_R",
+            "score": 0.1428
+          },
+          {
+            "feature": "Target: Transcription factor",
+            "raw_name": "tc_Transcription factor",
+            "score": 0.1206
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "aspirin",
+        "importance": 0.0627,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.4978
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.305
+          },
+          {
+            "feature": "ATC: Blood",
+            "raw_name": "atc_l1_B",
+            "score": 0.2279
+          },
+          {
+            "feature": "ATC: Cardiovascular",
+            "raw_name": "atc_l1_C",
+            "score": 0.1414
+          },
+          {
+            "feature": "Target: Ion channel",
+            "raw_name": "tc_Ion channel",
+            "score": 0.0975
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "prednisone",
+        "importance": 0.0543,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.4936
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.3015
+          },
+          {
+            "feature": "Action: AGONIST",
+            "raw_name": "at_AGONIST",
+            "score": 0.1582
+          },
+          {
+            "feature": "ATC: Hormones",
+            "raw_name": "atc_l1_H",
+            "score": 0.1337
+          },
+          {
+            "feature": "Target: Transporter",
+            "raw_name": "tc_Transporter",
+            "score": 0.1136
+          }
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "acetaminophen",
+        "importance": 0.0507,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.4868
+          },
+          {
+            "feature": "Action: AGONIST",
+            "raw_name": "at_AGONIST",
+            "score": 0.1571
+          },
+          {
+            "feature": "Action: OPENER",
+            "raw_name": "at_OPENER",
+            "score": 0.1316
+          },
+          {
+            "feature": "Target: Unclassified",
+            "raw_name": "tc_Unclassified",
+            "score": 0.1136
+          },
+          {
+            "feature": "Target: Ion channel",
+            "raw_name": "tc_Ion channel",
+            "score": 0.0964
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "mesalamine",
+        "importance": 0.0476,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.4439
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.2866
+          },
+          {
+            "feature": "Action: AGONIST",
+            "raw_name": "at_AGONIST",
+            "score": 0.1564
+          },
+          {
+            "feature": "Target: Cytokine",
+            "raw_name": "tc_Cytokine",
+            "score": 0.1101
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0741
+          }
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "sodium chloride",
+        "importance": 0.047,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.4421
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.286
+          },
+          {
+            "feature": "ATC: Blood",
+            "raw_name": "atc_l1_B",
+            "score": 0.2153
+          },
+          {
+            "feature": "ATC: Sensory Organs",
+            "raw_name": "atc_l1_S",
+            "score": 0.1578
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0575
+          }
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "levothyroxine",
+        "importance": 0.0451,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.4408
+          },
+          {
+            "feature": "Action: AGONIST",
+            "raw_name": "at_AGONIST",
+            "score": 0.1497
+          },
+          {
+            "feature": "ATC: Hormones",
+            "raw_name": "atc_l1_H",
+            "score": 0.1243
+          },
+          {
+            "feature": "Target: Transcription factor",
+            "raw_name": "tc_Transcription factor",
+            "score": 0.1213
+          },
+          {
+            "feature": "Target: Unclassified",
+            "raw_name": "tc_Unclassified",
+            "score": 0.1076
+          }
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "simvastatin",
+        "importance": 0.0443,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.453
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.298
+          },
+          {
+            "feature": "ATC: Cardiovascular",
+            "raw_name": "atc_l1_C",
+            "score": 0.1382
+          },
+          {
+            "feature": "Target: Nuclear other",
+            "raw_name": "tc_Nuclear other",
+            "score": 0.0614
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0581
+          }
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "potassium chloride",
+        "importance": 0.0433,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.4524
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.2938
+          },
+          {
+            "feature": "ATC: Blood",
+            "raw_name": "atc_l1_B",
+            "score": 0.2188
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0567
+          },
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.0495
+          }
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "hydrochlorothiazide",
+        "importance": 0.0405,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.4522
+          },
+          {
+            "feature": "ATC: Cardiovascular",
+            "raw_name": "atc_l1_C",
+            "score": 0.1334
+          },
+          {
+            "feature": "Target: Transporter",
+            "raw_name": "tc_Transporter",
+            "score": 0.1053
+          },
+          {
+            "feature": "Target: Unclassified",
+            "raw_name": "tc_Unclassified",
+            "score": 0.102
+          },
+          {
+            "feature": "Target: Ion channel",
+            "raw_name": "tc_Ion channel",
+            "score": 0.0914
+          }
+        ]
+      },
+      {
+        "rank": 11,
+        "name": "vitamin E",
+        "importance": 0.0371,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.4075
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.2857
+          },
+          {
+            "feature": "Target: Transporter",
+            "raw_name": "tc_Transporter",
+            "score": 0.1014
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0641
+          },
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.0503
+          }
+        ]
+      },
+      {
+        "rank": 12,
+        "name": "calcium carbonate",
+        "importance": 0.034,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.4692
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.299
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0613
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0255
+          }
+        ]
+      },
+      {
+        "rank": 13,
+        "name": "gramicidin",
+        "importance": 0.034,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1595
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.1459
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.1454
+          },
+          {
+            "feature": "ATC: Respiratory",
+            "raw_name": "atc_l1_R",
+            "score": 0.0989
+          },
+          {
+            "feature": "Target: GPCR",
+            "raw_name": "tc_GPCR",
+            "score": 0.0968
+          }
+        ]
+      },
+      {
+        "rank": 14,
+        "name": "pregabalin",
+        "importance": 0.0328,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.4492
+          },
+          {
+            "feature": "Target: Transporter",
+            "raw_name": "tc_Transporter",
+            "score": 0.106
+          },
+          {
+            "feature": "Target: Ion channel",
+            "raw_name": "tc_Ion channel",
+            "score": 0.0919
+          },
+          {
+            "feature": "Action: MODULATOR",
+            "raw_name": "at_MODULATOR",
+            "score": 0.0759
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0644
+          }
+        ]
+      },
+      {
+        "rank": 15,
+        "name": "magnesium oxide",
+        "importance": 0.0323,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.431
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.2892
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.059
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0337
+          }
+        ]
+      },
+      {
+        "rank": 16,
+        "name": "trimethoprim",
+        "importance": 0.0304,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.4203
+          },
+          {
+            "feature": "Target: Transporter",
+            "raw_name": "tc_Transporter",
+            "score": 0.1061
+          },
+          {
+            "feature": "ATC: Anti-infectives",
+            "raw_name": "atc_l1_J",
+            "score": 0.1004
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0632
+          },
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.049
+          }
+        ]
+      },
+      {
+        "rank": 17,
+        "name": "desonide",
+        "importance": 0.0302,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.3253
+          },
+          {
+            "feature": "ATC: Sensory Organs",
+            "raw_name": "atc_l1_S",
+            "score": 0.1367
+          },
+          {
+            "feature": "Action: AGONIST",
+            "raw_name": "at_AGONIST",
+            "score": 0.1309
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0632
+          },
+          {
+            "feature": "ATC: Dermatologicals",
+            "raw_name": "atc_l1_D",
+            "score": 0.0529
+          }
+        ]
+      },
+      {
+        "rank": 18,
+        "name": "sodium bicarbonate",
+        "importance": 0.0302,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.4377
+          },
+          {
+            "feature": "ATC: Blood",
+            "raw_name": "atc_l1_B",
+            "score": 0.2322
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0671
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0226
+          }
+        ]
+      },
+      {
+        "rank": 19,
+        "name": "triamcinolone",
+        "importance": 0.0287,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.4491
+          },
+          {
+            "feature": "Action: AGONIST",
+            "raw_name": "at_AGONIST",
+            "score": 0.1572
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0613
+          },
+          {
+            "feature": "Target: Nuclear hormone receptor",
+            "raw_name": "tc_Nuclear hormone receptor",
+            "score": 0.0299
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0251
+          }
+        ]
+      },
+      {
+        "rank": 20,
+        "name": "calcium citrate",
+        "importance": 0.0287,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.3692
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.2776
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0586
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0161
+          }
+        ]
+      },
+      {
+        "rank": 21,
+        "name": "mupirocin calcium",
+        "importance": 0.0283,
+        "top_features": [
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.3464
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.1158
+          },
+          {
+            "feature": "ATC: Respiratory",
+            "raw_name": "atc_l1_R",
+            "score": 0.0708
+          },
+          {
+            "feature": "ATC: Dermatologicals",
+            "raw_name": "atc_l1_D",
+            "score": 0.0669
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0433
+          }
+        ]
+      },
+      {
+        "rank": 22,
+        "name": "glycerin",
+        "importance": 0.0277,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.3537
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.2663
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0604
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0173
+          }
+        ]
+      },
+      {
+        "rank": 23,
+        "name": "aluminum hydroxide",
+        "importance": 0.0273,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.3449
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.2782
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0577
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0066
+          }
+        ]
+      },
+      {
+        "rank": 24,
+        "name": "polyethylene glycol 4000",
+        "importance": 0.0252,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.3268
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.2358
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0587
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0123
+          }
+        ]
+      },
+      {
+        "rank": 25,
+        "name": "cupric oxide",
+        "importance": 0.0218,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2329
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.1979
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.1171
+          }
+        ]
+      },
+      {
+        "rank": 26,
+        "name": "estradiol",
+        "importance": 0.0188,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.3929
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0624
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0181
+          }
+        ]
+      },
+      {
+        "rank": 27,
+        "name": "zinc oxide",
+        "importance": 0.013,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2646
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0518
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.01
+          }
+        ]
+      },
+      {
+        "rank": 28,
+        "name": "brexpiprazole",
+        "importance": 0.0105,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.073
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0692
+          },
+          {
+            "feature": "Target: Transporter",
+            "raw_name": "tc_Transporter",
+            "score": 0.0383
+          },
+          {
+            "feature": "Action: ANTAGONIST",
+            "raw_name": "at_ANTAGONIST",
+            "score": 0.0263
+          },
+          {
+            "feature": "Target: GPCR",
+            "raw_name": "tc_GPCR",
+            "score": 0.0233
+          }
+        ]
+      },
+      {
+        "rank": 29,
+        "name": "hydromorphone hydrochloride",
+        "importance": 0.0076,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0921
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0846
+          },
+          {
+            "feature": "ATC: Nervous System",
+            "raw_name": "atc_l1_N",
+            "score": 0.006
+          },
+          {
+            "feature": "Action: AGONIST",
+            "raw_name": "at_AGONIST",
+            "score": 0.0057
+          },
+          {
+            "feature": "Target: GPCR",
+            "raw_name": "tc_GPCR",
+            "score": 0.0023
+          }
+        ]
+      }
+    ],
+    "gnnexplainer_importance": [
+      {
+        "rank": 1,
+        "name": "mupirocin calcium",
+        "importance": 0.0708
+      },
+      {
+        "rank": 2,
+        "name": "gramicidin",
+        "importance": 0.0668
+      },
+      {
+        "rank": 3,
+        "name": "budesonide",
+        "importance": 0.0588
+      },
+      {
+        "rank": 4,
+        "name": "acetaminophen",
+        "importance": 0.0517
+      },
+      {
+        "rank": 5,
+        "name": "brexpiprazole",
+        "importance": 0.0516
+      },
+      {
+        "rank": 6,
+        "name": "aspirin",
+        "importance": 0.0484
+      },
+      {
+        "rank": 7,
+        "name": "prednisone",
+        "importance": 0.0424
+      },
+      {
+        "rank": 8,
+        "name": "mesalamine",
+        "importance": 0.0423
+      },
+      {
+        "rank": 9,
+        "name": "levothyroxine",
+        "importance": 0.04
+      },
+      {
+        "rank": 10,
+        "name": "simvastatin",
+        "importance": 0.0396
+      },
+      {
+        "rank": 11,
+        "name": "hydrochlorothiazide",
+        "importance": 0.0384
+      },
+      {
+        "rank": 12,
+        "name": "desonide",
+        "importance": 0.0376
+      },
+      {
+        "rank": 13,
+        "name": "hydromorphone hydrochloride",
+        "importance": 0.0335
+      },
+      {
+        "rank": 14,
+        "name": "sodium chloride",
+        "importance": 0.0321
+      },
+      {
+        "rank": 15,
+        "name": "vitamin E",
+        "importance": 0.0297
+      },
+      {
+        "rank": 16,
+        "name": "potassium chloride",
+        "importance": 0.0294
+      },
+      {
+        "rank": 17,
+        "name": "pregabalin",
+        "importance": 0.0282
+      },
+      {
+        "rank": 18,
+        "name": "cupric oxide",
+        "importance": 0.028
+      },
+      {
+        "rank": 19,
+        "name": "trimethoprim",
+        "importance": 0.0273
+      },
+      {
+        "rank": 20,
+        "name": "aluminum hydroxide",
+        "importance": 0.027
+      },
+      {
+        "rank": 21,
+        "name": "calcium carbonate",
+        "importance": 0.0266
+      },
+      {
+        "rank": 22,
+        "name": "magnesium oxide",
+        "importance": 0.0225
+      },
+      {
+        "rank": 23,
+        "name": "calcium citrate",
+        "importance": 0.0225
+      },
+      {
+        "rank": 24,
+        "name": "glycerin",
+        "importance": 0.022
+      },
+      {
+        "rank": 25,
+        "name": "polyethylene glycol 4000",
+        "importance": 0.0219
+      },
+      {
+        "rank": 26,
+        "name": "triamcinolone",
+        "importance": 0.0194
+      },
+      {
+        "rank": 27,
+        "name": "sodium bicarbonate",
+        "importance": 0.0171
+      },
+      {
+        "rank": 28,
+        "name": "zinc oxide",
+        "importance": 0.0126
+      },
+      {
+        "rank": 29,
+        "name": "estradiol",
+        "importance": 0.0118
+      }
+    ],
+    "top_edge_importance": [
+      {
+        "drug1": "trimethoprim",
+        "drug2": "desonide",
+        "importance": 0.8851
+      },
+      {
+        "drug1": "aluminum hydroxide",
+        "drug2": "trimethoprim",
+        "importance": 0.8719
+      },
+      {
+        "drug1": "desonide",
+        "drug2": "calcium carbonate",
+        "importance": 0.8662
+      },
+      {
+        "drug1": "aluminum hydroxide",
+        "drug2": "triamcinolone",
+        "importance": 0.825
+      }
+    ]
+  },
+  {
+    "title": "False Positive (Low Risk, Predicted High)",
+    "category": "FP",
+    "probability": 0.8892,
+    "true_label": 0,
+    "predicted_label": 1,
+    "n_drugs": 16,
+    "n_edges": 36,
+    "drugs": [
+      "diclofenac sodium",
+      "furosemide",
+      "abacavir",
+      "cetirizine hydrochloride",
+      "tocilizumab",
+      "bupropion hydrochloride",
+      "morphine",
+      "acetaminophen",
+      "quetiapine fumarate",
+      "rituximab",
+      "albuterol sulfate",
+      "ketoprofen",
+      "citalopram hydrobromide",
+      "diphenhydramine hydrochloride",
+      "montelukast sodium",
+      "methylprednisolone acetate"
+    ],
+    "drug_importance": [
+      {
+        "rank": 1,
+        "name": "acetaminophen",
+        "importance": 0.1617,
+        "top_features": [
+          {
+            "feature": "ATC: Nervous System",
+            "raw_name": "atc_l1_N",
+            "score": 0.2385
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2351
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.1717
+          },
+          {
+            "feature": "Action: AGONIST",
+            "raw_name": "at_AGONIST",
+            "score": 0.1497
+          },
+          {
+            "feature": "Action: INHIBITOR",
+            "raw_name": "at_INHIBITOR",
+            "score": 0.1038
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "furosemide",
+        "importance": 0.1214,
+        "top_features": [
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.3512
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2661
+          },
+          {
+            "feature": "Action: INHIBITOR",
+            "raw_name": "at_INHIBITOR",
+            "score": 0.1142
+          },
+          {
+            "feature": "ATC: Cardiovascular",
+            "raw_name": "atc_l1_C",
+            "score": 0.1123
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.064
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "abacavir",
+        "importance": 0.1047,
+        "top_features": [
+          {
+            "feature": "Target: Polyprotein",
+            "raw_name": "tc_Polyprotein",
+            "score": 0.212
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2025
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.1856
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.1269
+          },
+          {
+            "feature": "ATC: Anti-infectives",
+            "raw_name": "atc_l1_J",
+            "score": 0.0784
+          }
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "morphine",
+        "importance": 0.0887,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2869
+          },
+          {
+            "feature": "ATC: Nervous System",
+            "raw_name": "atc_l1_N",
+            "score": 0.2377
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.206
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0138
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "tocilizumab",
+        "importance": 0.0818,
+        "top_features": [
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.2163
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1994
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.1321
+          },
+          {
+            "feature": "ATC: Antineoplastic",
+            "raw_name": "atc_l1_L",
+            "score": 0.0775
+          },
+          {
+            "feature": "Target: Membrane receptor",
+            "raw_name": "tc_Membrane receptor",
+            "score": 0.061
+          }
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "rituximab",
+        "importance": 0.0715,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2456
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.1411
+          },
+          {
+            "feature": "ATC: Antineoplastic",
+            "raw_name": "atc_l1_L",
+            "score": 0.1112
+          },
+          {
+            "feature": "Target: Surface antigen",
+            "raw_name": "tc_Surface antigen",
+            "score": 0.0849
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0094
+          }
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "ketoprofen",
+        "importance": 0.0659,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2225
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.1164
+          },
+          {
+            "feature": "Action: INHIBITOR",
+            "raw_name": "at_INHIBITOR",
+            "score": 0.0861
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0817
+          },
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.0388
+          }
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "cetirizine hydrochloride",
+        "importance": 0.054,
+        "top_features": [
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.1336
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.1197
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0805
+          },
+          {
+            "feature": "ATC: Respiratory",
+            "raw_name": "atc_l1_R",
+            "score": 0.0498
+          },
+          {
+            "feature": "Target: Kinase",
+            "raw_name": "tc_Kinase",
+            "score": 0.0234
+          }
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "methylprednisolone acetate",
+        "importance": 0.0539,
+        "top_features": [
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.1516
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.1243
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1091
+          },
+          {
+            "feature": "Target: Nuclear hormone receptor",
+            "raw_name": "tc_Nuclear hormone receptor",
+            "score": 0.0375
+          },
+          {
+            "feature": "Action: AGONIST",
+            "raw_name": "at_AGONIST",
+            "score": 0.0305
+          }
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "albuterol sulfate",
+        "importance": 0.0524,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1263
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0912
+          },
+          {
+            "feature": "ATC: Respiratory",
+            "raw_name": "atc_l1_R",
+            "score": 0.0768
+          },
+          {
+            "feature": "Action: AGONIST",
+            "raw_name": "at_AGONIST",
+            "score": 0.0651
+          },
+          {
+            "feature": "Target: GPCR",
+            "raw_name": "tc_GPCR",
+            "score": 0.0618
+          }
+        ]
+      },
+      {
+        "rank": 11,
+        "name": "diclofenac sodium",
+        "importance": 0.0447,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0659
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0567
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0431
+          },
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.0417
+          },
+          {
+            "feature": "ATC: Musculoskeletal",
+            "raw_name": "atc_l1_M",
+            "score": 0.0389
+          }
+        ]
+      },
+      {
+        "rank": 12,
+        "name": "quetiapine fumarate",
+        "importance": 0.0382,
+        "top_features": [
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0802
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0466
+          },
+          {
+            "feature": "Target: Transporter",
+            "raw_name": "tc_Transporter",
+            "score": 0.0354
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0266
+          },
+          {
+            "feature": "Action: ANTAGONIST",
+            "raw_name": "at_ANTAGONIST",
+            "score": 0.025
+          }
+        ]
+      },
+      {
+        "rank": 13,
+        "name": "citalopram hydrobromide",
+        "importance": 0.0178,
+        "top_features": [
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0382
+          },
+          {
+            "feature": "Target: Unclassified",
+            "raw_name": "tc_Unclassified",
+            "score": 0.0222
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0174
+          },
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.0141
+          },
+          {
+            "feature": "Target: Ion channel",
+            "raw_name": "tc_Ion channel",
+            "score": 0.0134
+          }
+        ]
+      },
+      {
+        "rank": 14,
+        "name": "diphenhydramine hydrochloride",
+        "importance": 0.0153,
+        "top_features": [
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0256
+          },
+          {
+            "feature": "ATC: Respiratory",
+            "raw_name": "atc_l1_R",
+            "score": 0.0211
+          },
+          {
+            "feature": "Target: GPCR",
+            "raw_name": "tc_GPCR",
+            "score": 0.0193
+          },
+          {
+            "feature": "Action: ANTAGONIST",
+            "raw_name": "at_ANTAGONIST",
+            "score": 0.0148
+          },
+          {
+            "feature": "Target: Ion channel",
+            "raw_name": "tc_Ion channel",
+            "score": 0.0135
+          }
+        ]
+      },
+      {
+        "rank": 15,
+        "name": "montelukast sodium",
+        "importance": 0.0152,
+        "top_features": [
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0316
+          },
+          {
+            "feature": "Action: ANTAGONIST",
+            "raw_name": "at_ANTAGONIST",
+            "score": 0.0259
+          },
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.0175
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0131
+          },
+          {
+            "feature": "ATC: Respiratory",
+            "raw_name": "atc_l1_R",
+            "score": 0.01
+          }
+        ]
+      },
+      {
+        "rank": 16,
+        "name": "bupropion hydrochloride",
+        "importance": 0.0127,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0345
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0263
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.0132
+          },
+          {
+            "feature": "Target: Transporter",
+            "raw_name": "tc_Transporter",
+            "score": 0.0077
+          },
+          {
+            "feature": "ATC: Nervous System",
+            "raw_name": "atc_l1_N",
+            "score": 0.0069
+          }
+        ]
+      }
+    ],
+    "gnnexplainer_importance": [
+      {
+        "rank": 1,
+        "name": "diclofenac sodium",
+        "importance": 0.1168
+      },
+      {
+        "rank": 2,
+        "name": "quetiapine fumarate",
+        "importance": 0.0934
+      },
+      {
+        "rank": 3,
+        "name": "acetaminophen",
+        "importance": 0.0878
+      },
+      {
+        "rank": 4,
+        "name": "bupropion hydrochloride",
+        "importance": 0.078
+      },
+      {
+        "rank": 5,
+        "name": "diphenhydramine hydrochloride",
+        "importance": 0.0779
+      },
+      {
+        "rank": 6,
+        "name": "citalopram hydrobromide",
+        "importance": 0.074
+      },
+      {
+        "rank": 7,
+        "name": "montelukast sodium",
+        "importance": 0.0674
+      },
+      {
+        "rank": 8,
+        "name": "cetirizine hydrochloride",
+        "importance": 0.0607
+      },
+      {
+        "rank": 9,
+        "name": "furosemide",
+        "importance": 0.0601
+      },
+      {
+        "rank": 10,
+        "name": "abacavir",
+        "importance": 0.0476
+      },
+      {
+        "rank": 11,
+        "name": "albuterol sulfate",
+        "importance": 0.044
+      },
+      {
+        "rank": 12,
+        "name": "tocilizumab",
+        "importance": 0.0433
+      },
+      {
+        "rank": 13,
+        "name": "rituximab",
+        "importance": 0.0425
+      },
+      {
+        "rank": 14,
+        "name": "ketoprofen",
+        "importance": 0.0403
+      },
+      {
+        "rank": 15,
+        "name": "methylprednisolone acetate",
+        "importance": 0.0386
+      },
+      {
+        "rank": 16,
+        "name": "morphine",
+        "importance": 0.0276
+      }
+    ],
+    "top_edge_importance": [
+      {
+        "drug1": "furosemide",
+        "drug2": "acetaminophen",
+        "importance": 0.9451
+      },
+      {
+        "drug1": "rituximab",
+        "drug2": "ketoprofen",
+        "importance": 0.9353
+      },
+      {
+        "drug1": "rituximab",
+        "drug2": "acetaminophen",
+        "importance": 0.9339
+      },
+      {
+        "drug1": "abacavir",
+        "drug2": "rituximab",
+        "importance": 0.9334
+      },
+      {
+        "drug1": "abacavir",
+        "drug2": "acetaminophen",
+        "importance": 0.9322
+      }
+    ]
+  },
+  {
+    "title": "False Negative (High Risk, Predicted Low)",
+    "category": "FN",
+    "probability": 0.0428,
+    "true_label": 1,
+    "predicted_label": 0,
+    "n_drugs": 36,
+    "n_edges": 608,
+    "drugs": [
+      "desonide",
+      "potassium chloride",
+      "acetaminophen",
+      "metronidazole benzoate",
+      "glycerin",
+      "montelukast sodium",
+      "gramicidin",
+      "fluticasone",
+      "atropine",
+      "mesalamine",
+      "budesonide",
+      "simvastatin",
+      "zinc oxide",
+      "cupric oxide",
+      "sodium chloride",
+      "vitamin E",
+      "hydromorphone hydrochloride",
+      "polyethylene glycol 4000",
+      "magnesium oxide",
+      "betamethasone",
+      "alpha-tocopherol acetate",
+      "cetirizine hydrochloride",
+      "aspirin",
+      "nystatin",
+      "zinc chloride",
+      "sodium bicarbonate",
+      "hydrochlorothiazide",
+      "nitroglycerin",
+      "calcium carbonate",
+      "ertapenem",
+      "prednisone",
+      "isoniazid",
+      "triamcinolone",
+      "pregabalin",
+      "diphenhydramine hydrochloride",
+      "trimethoprim"
+    ],
+    "drug_importance": [
+      {
+        "rank": 1,
+        "name": "metronidazole benzoate",
+        "importance": 0.1781,
+        "top_features": [
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 1.3368
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.5706
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.3777
+          },
+          {
+            "feature": "ATC: Genitourinary",
+            "raw_name": "atc_l1_G",
+            "score": 0.3059
+          },
+          {
+            "feature": "ATC: Dermatologicals",
+            "raw_name": "atc_l1_D",
+            "score": 0.2962
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "acetaminophen",
+        "importance": 0.0443,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.149
+          },
+          {
+            "feature": "Target: Unclassified",
+            "raw_name": "tc_Unclassified",
+            "score": 0.1137
+          },
+          {
+            "feature": "Action: OPENER",
+            "raw_name": "at_OPENER",
+            "score": 0.0953
+          },
+          {
+            "feature": "Target: Nuclear hormone receptor",
+            "raw_name": "tc_Nuclear hormone receptor",
+            "score": 0.0639
+          },
+          {
+            "feature": "Target: GPCR",
+            "raw_name": "tc_GPCR",
+            "score": 0.0636
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "budesonide",
+        "importance": 0.0441,
+        "top_features": [
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.1645
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1314
+          },
+          {
+            "feature": "Target: Unclassified",
+            "raw_name": "tc_Unclassified",
+            "score": 0.0948
+          },
+          {
+            "feature": "Target: Transporter",
+            "raw_name": "tc_Transporter",
+            "score": 0.0767
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.074
+          }
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "aspirin",
+        "importance": 0.0426,
+        "top_features": [
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.174
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1583
+          },
+          {
+            "feature": "ATC: Blood",
+            "raw_name": "atc_l1_B",
+            "score": 0.1206
+          },
+          {
+            "feature": "ATC: Cardiovascular",
+            "raw_name": "atc_l1_C",
+            "score": 0.0771
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0719
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "zinc chloride",
+        "importance": 0.0413,
+        "top_features": [
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.3411
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.1741
+          },
+          {
+            "feature": "ATC: Blood",
+            "raw_name": "atc_l1_B",
+            "score": 0.0521
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0501
+          },
+          {
+            "feature": "Target: Kinase",
+            "raw_name": "tc_Kinase",
+            "score": 0.048
+          }
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "prednisone",
+        "importance": 0.0394,
+        "top_features": [
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.1646
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1274
+          },
+          {
+            "feature": "ATC: Hormones",
+            "raw_name": "atc_l1_H",
+            "score": 0.0938
+          },
+          {
+            "feature": "Target: Transporter",
+            "raw_name": "tc_Transporter",
+            "score": 0.0836
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0793
+          }
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "atropine",
+        "importance": 0.0384,
+        "top_features": [
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.1587
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1198
+          },
+          {
+            "feature": "Action: ANTAGONIST",
+            "raw_name": "at_ANTAGONIST",
+            "score": 0.0861
+          },
+          {
+            "feature": "ATC: Sensory Organs",
+            "raw_name": "atc_l1_S",
+            "score": 0.0811
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0752
+          }
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "gramicidin",
+        "importance": 0.0351,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.12
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.1139
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.1102
+          },
+          {
+            "feature": "ATC: Respiratory",
+            "raw_name": "atc_l1_R",
+            "score": 0.0781
+          },
+          {
+            "feature": "Target: GPCR",
+            "raw_name": "tc_GPCR",
+            "score": 0.0727
+          }
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "simvastatin",
+        "importance": 0.0322,
+        "top_features": [
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.1635
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1211
+          },
+          {
+            "feature": "ATC: Cardiovascular",
+            "raw_name": "atc_l1_C",
+            "score": 0.0731
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0683
+          },
+          {
+            "feature": "Target: Nuclear hormone receptor",
+            "raw_name": "tc_Nuclear hormone receptor",
+            "score": 0.0652
+          }
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "mesalamine",
+        "importance": 0.0316,
+        "top_features": [
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.1658
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1571
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0646
+          },
+          {
+            "feature": "Target: Cytokine",
+            "raw_name": "tc_Cytokine",
+            "score": 0.0597
+          },
+          {
+            "feature": "Target: Nuclear hormone receptor",
+            "raw_name": "tc_Nuclear hormone receptor",
+            "score": 0.0471
+          }
+        ]
+      },
+      {
+        "rank": 11,
+        "name": "hydrochlorothiazide",
+        "importance": 0.0303,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1228
+          },
+          {
+            "feature": "Target: Unclassified",
+            "raw_name": "tc_Unclassified",
+            "score": 0.1015
+          },
+          {
+            "feature": "Target: Transporter",
+            "raw_name": "tc_Transporter",
+            "score": 0.0783
+          },
+          {
+            "feature": "ATC: Cardiovascular",
+            "raw_name": "atc_l1_C",
+            "score": 0.0709
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0705
+          }
+        ]
+      },
+      {
+        "rank": 12,
+        "name": "potassium chloride",
+        "importance": 0.0297,
+        "top_features": [
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.1674
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.138
+          },
+          {
+            "feature": "ATC: Blood",
+            "raw_name": "atc_l1_B",
+            "score": 0.1174
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0616
+          },
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.0454
+          }
+        ]
+      },
+      {
+        "rank": 13,
+        "name": "sodium chloride",
+        "importance": 0.0295,
+        "top_features": [
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.157
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1153
+          },
+          {
+            "feature": "ATC: Blood",
+            "raw_name": "atc_l1_B",
+            "score": 0.1078
+          },
+          {
+            "feature": "ATC: Sensory Organs",
+            "raw_name": "atc_l1_S",
+            "score": 0.0736
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0699
+          }
+        ]
+      },
+      {
+        "rank": 14,
+        "name": "nystatin",
+        "importance": 0.0253,
+        "top_features": [
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.1759
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1691
+          },
+          {
+            "feature": "ATC: Genitourinary",
+            "raw_name": "atc_l1_G",
+            "score": 0.0563
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0542
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0084
+          }
+        ]
+      },
+      {
+        "rank": 15,
+        "name": "vitamin E",
+        "importance": 0.0248,
+        "top_features": [
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.1569
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1154
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0826
+          },
+          {
+            "feature": "Target: Transporter",
+            "raw_name": "tc_Transporter",
+            "score": 0.0678
+          },
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.0314
+          }
+        ]
+      },
+      {
+        "rank": 16,
+        "name": "pregabalin",
+        "importance": 0.0238,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1367
+          },
+          {
+            "feature": "Target: Transporter",
+            "raw_name": "tc_Transporter",
+            "score": 0.0801
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0659
+          },
+          {
+            "feature": "Target: Ion channel",
+            "raw_name": "tc_Ion channel",
+            "score": 0.05
+          },
+          {
+            "feature": "Action: MODULATOR",
+            "raw_name": "at_MODULATOR",
+            "score": 0.0486
+          }
+        ]
+      },
+      {
+        "rank": 17,
+        "name": "cupric oxide",
+        "importance": 0.0231,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1822
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.1611
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0874
+          }
+        ]
+      },
+      {
+        "rank": 18,
+        "name": "fluticasone",
+        "importance": 0.0218,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1244
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0637
+          },
+          {
+            "feature": "Target: Nuclear hormone receptor",
+            "raw_name": "tc_Nuclear hormone receptor",
+            "score": 0.0621
+          },
+          {
+            "feature": "Target: Transcription factor",
+            "raw_name": "tc_Transcription factor",
+            "score": 0.0535
+          },
+          {
+            "feature": "Action: AGONIST",
+            "raw_name": "at_AGONIST",
+            "score": 0.0424
+          }
+        ]
+      },
+      {
+        "rank": 19,
+        "name": "polyethylene glycol 4000",
+        "importance": 0.0217,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1578
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.1523
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0562
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0386
+          }
+        ]
+      },
+      {
+        "rank": 20,
+        "name": "desonide",
+        "importance": 0.0208,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1321
+          },
+          {
+            "feature": "ATC: Sensory Organs",
+            "raw_name": "atc_l1_S",
+            "score": 0.0841
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0675
+          },
+          {
+            "feature": "Action: AGONIST",
+            "raw_name": "at_AGONIST",
+            "score": 0.037
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0316
+          }
+        ]
+      },
+      {
+        "rank": 21,
+        "name": "calcium carbonate",
+        "importance": 0.0205,
+        "top_features": [
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.1641
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1303
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0619
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0257
+          }
+        ]
+      },
+      {
+        "rank": 22,
+        "name": "magnesium oxide",
+        "importance": 0.0204,
+        "top_features": [
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.169
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1513
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0565
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0028
+          }
+        ]
+      },
+      {
+        "rank": 23,
+        "name": "trimethoprim",
+        "importance": 0.0197,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1066
+          },
+          {
+            "feature": "Target: Transporter",
+            "raw_name": "tc_Transporter",
+            "score": 0.0791
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0704
+          },
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.0439
+          },
+          {
+            "feature": "ATC: Anti-infectives",
+            "raw_name": "atc_l1_J",
+            "score": 0.0309
+          }
+        ]
+      },
+      {
+        "rank": 24,
+        "name": "nitroglycerin",
+        "importance": 0.0193,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1218
+          },
+          {
+            "feature": "ATC: Cardiovascular",
+            "raw_name": "atc_l1_C",
+            "score": 0.0727
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0698
+          },
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.043
+          },
+          {
+            "feature": "Action: ACTIVATOR",
+            "raw_name": "at_ACTIVATOR",
+            "score": 0.0295
+          }
+        ]
+      },
+      {
+        "rank": 25,
+        "name": "betamethasone",
+        "importance": 0.0192,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1478
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0565
+          },
+          {
+            "feature": "Target: Nuclear hormone receptor",
+            "raw_name": "tc_Nuclear hormone receptor",
+            "score": 0.0516
+          },
+          {
+            "feature": "Target: GPCR",
+            "raw_name": "tc_GPCR",
+            "score": 0.0488
+          },
+          {
+            "feature": "Action: AGONIST",
+            "raw_name": "at_AGONIST",
+            "score": 0.0465
+          }
+        ]
+      },
+      {
+        "rank": 26,
+        "name": "sodium bicarbonate",
+        "importance": 0.0186,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1666
+          },
+          {
+            "feature": "ATC: Blood",
+            "raw_name": "atc_l1_B",
+            "score": 0.119
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0559
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0059
+          }
+        ]
+      },
+      {
+        "rank": 27,
+        "name": "triamcinolone",
+        "importance": 0.0183,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1781
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0569
+          },
+          {
+            "feature": "Action: AGONIST",
+            "raw_name": "at_AGONIST",
+            "score": 0.0512
+          },
+          {
+            "feature": "Target: Nuclear hormone receptor",
+            "raw_name": "tc_Nuclear hormone receptor",
+            "score": 0.0495
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0056
+          }
+        ]
+      },
+      {
+        "rank": 28,
+        "name": "glycerin",
+        "importance": 0.017,
+        "top_features": [
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.147
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1051
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0651
+          }
+        ]
+      },
+      {
+        "rank": 29,
+        "name": "ertapenem",
+        "importance": 0.0147,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1479
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0531
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.039
+          },
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.0198
+          },
+          {
+            "feature": "ATC: Anti-infectives",
+            "raw_name": "atc_l1_J",
+            "score": 0.0134
+          }
+        ]
+      },
+      {
+        "rank": 30,
+        "name": "isoniazid",
+        "importance": 0.0125,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0987
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0818
+          },
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.0325
+          },
+          {
+            "feature": "ATC: Anti-infectives",
+            "raw_name": "atc_l1_J",
+            "score": 0.0149
+          },
+          {
+            "feature": "Action: INHIBITOR",
+            "raw_name": "at_INHIBITOR",
+            "score": 0.0055
+          }
+        ]
+      },
+      {
+        "rank": 31,
+        "name": "cetirizine hydrochloride",
+        "importance": 0.0087,
+        "top_features": [
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0643
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0362
+          },
+          {
+            "feature": "ATC: Sensory Organs",
+            "raw_name": "atc_l1_S",
+            "score": 0.0143
+          },
+          {
+            "feature": "Action: ANTAGONIST",
+            "raw_name": "at_ANTAGONIST",
+            "score": 0.0134
+          },
+          {
+            "feature": "Target: Ion channel",
+            "raw_name": "tc_Ion channel",
+            "score": 0.0123
+          }
+        ]
+      },
+      {
+        "rank": 32,
+        "name": "hydromorphone hydrochloride",
+        "importance": 0.0079,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0703
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0639
+          },
+          {
+            "feature": "Action: AGONIST",
+            "raw_name": "at_AGONIST",
+            "score": 0.0053
+          },
+          {
+            "feature": "ATC: Nervous System",
+            "raw_name": "atc_l1_N",
+            "score": 0.0048
+          },
+          {
+            "feature": "Target: GPCR",
+            "raw_name": "tc_GPCR",
+            "score": 0.0015
+          }
+        ]
+      },
+      {
+        "rank": 33,
+        "name": "diphenhydramine hydrochloride",
+        "importance": 0.0074,
+        "top_features": [
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0405
+          },
+          {
+            "feature": "ATC: Dermatologicals",
+            "raw_name": "atc_l1_D",
+            "score": 0.0253
+          },
+          {
+            "feature": "ATC: Respiratory",
+            "raw_name": "atc_l1_R",
+            "score": 0.0227
+          },
+          {
+            "feature": "Target: GPCR",
+            "raw_name": "tc_GPCR",
+            "score": 0.0199
+          },
+          {
+            "feature": "Target: Ion channel",
+            "raw_name": "tc_Ion channel",
+            "score": 0.015
+          }
+        ]
+      },
+      {
+        "rank": 34,
+        "name": "zinc oxide",
+        "importance": 0.007,
+        "top_features": [
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0618
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0618
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0062
+          }
+        ]
+      },
+      {
+        "rank": 35,
+        "name": "alpha-tocopherol acetate",
+        "importance": 0.0059,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0747
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0184
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0166
+          }
+        ]
+      },
+      {
+        "rank": 36,
+        "name": "montelukast sodium",
+        "importance": 0.0049,
+        "top_features": [
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0162
+          },
+          {
+            "feature": "Target: GPCR",
+            "raw_name": "tc_GPCR",
+            "score": 0.0149
+          },
+          {
+            "feature": "Action: ANTAGONIST",
+            "raw_name": "at_ANTAGONIST",
+            "score": 0.0148
+          },
+          {
+            "feature": "ATC: Respiratory",
+            "raw_name": "atc_l1_R",
+            "score": 0.0129
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0117
+          }
+        ]
+      }
+    ],
+    "gnnexplainer_importance": [
+      {
+        "rank": 1,
+        "name": "metronidazole benzoate",
+        "importance": 0.0991
+      },
+      {
+        "rank": 2,
+        "name": "zinc chloride",
+        "importance": 0.0667
+      },
+      {
+        "rank": 3,
+        "name": "gramicidin",
+        "importance": 0.058
+      },
+      {
+        "rank": 4,
+        "name": "budesonide",
+        "importance": 0.0407
+      },
+      {
+        "rank": 5,
+        "name": "cetirizine hydrochloride",
+        "importance": 0.0406
+      },
+      {
+        "rank": 6,
+        "name": "acetaminophen",
+        "importance": 0.0392
+      },
+      {
+        "rank": 7,
+        "name": "aspirin",
+        "importance": 0.0368
+      },
+      {
+        "rank": 8,
+        "name": "diphenhydramine hydrochloride",
+        "importance": 0.0367
+      },
+      {
+        "rank": 9,
+        "name": "hydromorphone hydrochloride",
+        "importance": 0.0351
+      },
+      {
+        "rank": 10,
+        "name": "atropine",
+        "importance": 0.0295
+      },
+      {
+        "rank": 11,
+        "name": "montelukast sodium",
+        "importance": 0.0291
+      },
+      {
+        "rank": 12,
+        "name": "prednisone",
+        "importance": 0.0287
+      },
+      {
+        "rank": 13,
+        "name": "mesalamine",
+        "importance": 0.0281
+      },
+      {
+        "rank": 14,
+        "name": "simvastatin",
+        "importance": 0.028
+      },
+      {
+        "rank": 15,
+        "name": "cupric oxide",
+        "importance": 0.0261
+      },
+      {
+        "rank": 16,
+        "name": "fluticasone",
+        "importance": 0.0261
+      },
+      {
+        "rank": 17,
+        "name": "hydrochlorothiazide",
+        "importance": 0.026
+      },
+      {
+        "rank": 18,
+        "name": "alpha-tocopherol acetate",
+        "importance": 0.0223
+      },
+      {
+        "rank": 19,
+        "name": "pregabalin",
+        "importance": 0.0212
+      },
+      {
+        "rank": 20,
+        "name": "trimethoprim",
+        "importance": 0.0209
+      },
+      {
+        "rank": 21,
+        "name": "desonide",
+        "importance": 0.0208
+      },
+      {
+        "rank": 22,
+        "name": "nystatin",
+        "importance": 0.0196
+      },
+      {
+        "rank": 23,
+        "name": "ertapenem",
+        "importance": 0.0193
+      },
+      {
+        "rank": 24,
+        "name": "isoniazid",
+        "importance": 0.0192
+      },
+      {
+        "rank": 25,
+        "name": "potassium chloride",
+        "importance": 0.019
+      },
+      {
+        "rank": 26,
+        "name": "sodium chloride",
+        "importance": 0.0182
+      },
+      {
+        "rank": 27,
+        "name": "vitamin E",
+        "importance": 0.018
+      },
+      {
+        "rank": 28,
+        "name": "betamethasone",
+        "importance": 0.0179
+      },
+      {
+        "rank": 29,
+        "name": "nitroglycerin",
+        "importance": 0.0178
+      },
+      {
+        "rank": 30,
+        "name": "triamcinolone",
+        "importance": 0.0161
+      },
+      {
+        "rank": 31,
+        "name": "glycerin",
+        "importance": 0.0136
+      },
+      {
+        "rank": 32,
+        "name": "calcium carbonate",
+        "importance": 0.0135
+      },
+      {
+        "rank": 33,
+        "name": "magnesium oxide",
+        "importance": 0.0134
+      },
+      {
+        "rank": 34,
+        "name": "sodium bicarbonate",
+        "importance": 0.0129
+      },
+      {
+        "rank": 35,
+        "name": "polyethylene glycol 4000",
+        "importance": 0.0125
+      },
+      {
+        "rank": 36,
+        "name": "zinc oxide",
+        "importance": 0.0094
+      }
+    ],
+    "top_edge_importance": [
+      {
+        "drug1": "triamcinolone",
+        "drug2": "desonide",
+        "importance": 0.6591
+      },
+      {
+        "drug1": "nitroglycerin",
+        "drug2": "triamcinolone",
+        "importance": 0.2113
+      },
+      {
+        "drug1": "isoniazid",
+        "drug2": "calcium carbonate",
+        "importance": 0.2037
+      },
+      {
+        "drug1": "mesalamine",
+        "drug2": "prednisone",
+        "importance": 0.1985
+      },
+      {
+        "drug1": "prednisone",
+        "drug2": "acetaminophen",
+        "importance": 0.1895
+      }
+    ]
+  },
+  {
+    "title": "True Positive Case 2",
+    "category": "TP",
+    "probability": 0.9973,
+    "true_label": 1,
+    "predicted_label": 1,
+    "n_drugs": 48,
+    "n_edges": 476,
+    "drugs": [
+      "sucrose",
+      "potassium chloride",
+      "umeclidinium bromide",
+      "phenoxyethanol",
+      "sodium phosphate, monobasic",
+      "ascorbic acid",
+      "allantoin",
+      "acetaminophen",
+      "lutein",
+      "aluminum hydroxide",
+      "darbepoetin alfa",
+      "chlorpheniramine maleate",
+      "warfarin",
+      "fluticasone",
+      "dexlansoprazole",
+      "melatonin",
+      "ammonium chloride",
+      "propylene glycol",
+      "insulin degludec",
+      "simvastatin",
+      "vilanterol trifenatate",
+      "vitamin E",
+      "sodium chloride",
+      "dobutamine hydrochloride",
+      "hydromorphone hydrochloride",
+      "polyethylene glycol 4000",
+      "metamizole sodium",
+      "docusate sodium",
+      "riboflavin",
+      "magnesium oxide",
+      "betamethasone",
+      "hydrocortisone acetate",
+      "stearic acid",
+      "nystatin",
+      "biotin",
+      "sodium bicarbonate",
+      "ceftriaxone sodium",
+      "titanium dioxide",
+      "citric acid",
+      "maltose",
+      "pyridoxine hydrochloride",
+      "calcium carbonate",
+      "lanthanum carbonate",
+      "amiodarone hydrochloride",
+      "lansoprazole",
+      "magnesium carbonate",
+      "albuterol sulfate",
+      "chloramphenicol"
+    ],
+    "drug_importance": [
+      {
+        "rank": 1,
+        "name": "acetaminophen",
+        "importance": 0.0702,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.4247
+          },
+          {
+            "feature": "Target: Cytosolic other",
+            "raw_name": "tc_Cytosolic other",
+            "score": 0.2242
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2023
+          },
+          {
+            "feature": "Target: Unclassified",
+            "raw_name": "tc_Unclassified",
+            "score": 0.1798
+          },
+          {
+            "feature": "Target: GPCR",
+            "raw_name": "tc_GPCR",
+            "score": 0.1594
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "lansoprazole",
+        "importance": 0.0392,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.355
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2263
+          },
+          {
+            "feature": "Target: Transporter",
+            "raw_name": "tc_Transporter",
+            "score": 0.1294
+          },
+          {
+            "feature": "Action: INHIBITOR",
+            "raw_name": "at_INHIBITOR",
+            "score": 0.0726
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0719
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "ascorbic acid",
+        "importance": 0.0377,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2763
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2287
+          },
+          {
+            "feature": "Target: Transporter",
+            "raw_name": "tc_Transporter",
+            "score": 0.1172
+          },
+          {
+            "feature": "ATC: Genitourinary",
+            "raw_name": "atc_l1_G",
+            "score": 0.1105
+          },
+          {
+            "feature": "ATC: Sensory Organs",
+            "raw_name": "atc_l1_S",
+            "score": 0.0999
+          }
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "simvastatin",
+        "importance": 0.0361,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.3279
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.227
+          },
+          {
+            "feature": "ATC: Cardiovascular",
+            "raw_name": "atc_l1_C",
+            "score": 0.091
+          },
+          {
+            "feature": "Action: INHIBITOR",
+            "raw_name": "at_INHIBITOR",
+            "score": 0.067
+          },
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.0627
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "dexlansoprazole",
+        "importance": 0.0327,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2265
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.1955
+          },
+          {
+            "feature": "Target: Unclassified",
+            "raw_name": "tc_Unclassified",
+            "score": 0.1221
+          },
+          {
+            "feature": "Target: Transporter",
+            "raw_name": "tc_Transporter",
+            "score": 0.1013
+          },
+          {
+            "feature": "Action: INHIBITOR",
+            "raw_name": "at_INHIBITOR",
+            "score": 0.0671
+          }
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "melatonin",
+        "importance": 0.0319,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2676
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2083
+          },
+          {
+            "feature": "Target: GPCR",
+            "raw_name": "tc_GPCR",
+            "score": 0.1151
+          },
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.0604
+          },
+          {
+            "feature": "Action: AGONIST",
+            "raw_name": "at_AGONIST",
+            "score": 0.0513
+          }
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "warfarin",
+        "importance": 0.0309,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.3077
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2343
+          },
+          {
+            "feature": "Action: INHIBITOR",
+            "raw_name": "at_INHIBITOR",
+            "score": 0.0768
+          },
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.0727
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0485
+          }
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "potassium chloride",
+        "importance": 0.0301,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.343
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2188
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0659
+          },
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.0656
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.0385
+          }
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "vilanterol trifenatate",
+        "importance": 0.03,
+        "top_features": [
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.3479
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.1142
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0898
+          },
+          {
+            "feature": "Target: GPCR",
+            "raw_name": "tc_GPCR",
+            "score": 0.0829
+          },
+          {
+            "feature": "ATC: Respiratory",
+            "raw_name": "atc_l1_R",
+            "score": 0.0724
+          }
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "sodium chloride",
+        "importance": 0.0295,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.3076
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2113
+          },
+          {
+            "feature": "ATC: Sensory Organs",
+            "raw_name": "atc_l1_S",
+            "score": 0.1032
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0494
+          },
+          {
+            "feature": "ATC: Blood",
+            "raw_name": "atc_l1_B",
+            "score": 0.0412
+          }
+        ]
+      },
+      {
+        "rank": 11,
+        "name": "betamethasone",
+        "importance": 0.0295,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.283
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2107
+          },
+          {
+            "feature": "Target: GPCR",
+            "raw_name": "tc_GPCR",
+            "score": 0.1202
+          },
+          {
+            "feature": "Target: Nuclear hormone receptor",
+            "raw_name": "tc_Nuclear hormone receptor",
+            "score": 0.0553
+          },
+          {
+            "feature": "Action: AGONIST",
+            "raw_name": "at_AGONIST",
+            "score": 0.0485
+          }
+        ]
+      },
+      {
+        "rank": 12,
+        "name": "chloramphenicol",
+        "importance": 0.0293,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1813
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.1548
+          },
+          {
+            "feature": "Target: Unclassified",
+            "raw_name": "tc_Unclassified",
+            "score": 0.1079
+          },
+          {
+            "feature": "ATC: Sensory Organs",
+            "raw_name": "atc_l1_S",
+            "score": 0.0826
+          },
+          {
+            "feature": "ATC: Genitourinary",
+            "raw_name": "atc_l1_G",
+            "score": 0.0728
+          }
+        ]
+      },
+      {
+        "rank": 13,
+        "name": "fluticasone",
+        "importance": 0.0285,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2844
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2267
+          },
+          {
+            "feature": "Target: Nuclear hormone receptor",
+            "raw_name": "tc_Nuclear hormone receptor",
+            "score": 0.0567
+          },
+          {
+            "feature": "Action: AGONIST",
+            "raw_name": "at_AGONIST",
+            "score": 0.0515
+          },
+          {
+            "feature": "Target: Transcription factor",
+            "raw_name": "tc_Transcription factor",
+            "score": 0.0417
+          }
+        ]
+      },
+      {
+        "rank": 14,
+        "name": "vitamin E",
+        "importance": 0.0284,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2593
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2252
+          },
+          {
+            "feature": "Target: Transporter",
+            "raw_name": "tc_Transporter",
+            "score": 0.1162
+          },
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.0683
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.0329
+          }
+        ]
+      },
+      {
+        "rank": 15,
+        "name": "riboflavin",
+        "importance": 0.0283,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2307
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.1743
+          },
+          {
+            "feature": "Target: Unclassified",
+            "raw_name": "tc_Unclassified",
+            "score": 0.1036
+          },
+          {
+            "feature": "ATC: Sensory Organs",
+            "raw_name": "atc_l1_S",
+            "score": 0.0915
+          },
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.0525
+          }
+        ]
+      },
+      {
+        "rank": 16,
+        "name": "calcium carbonate",
+        "importance": 0.0275,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.3603
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2284
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0777
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.0344
+          }
+        ]
+      },
+      {
+        "rank": 17,
+        "name": "nystatin",
+        "importance": 0.0274,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2825
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2261
+          },
+          {
+            "feature": "ATC: Genitourinary",
+            "raw_name": "atc_l1_G",
+            "score": 0.1152
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0356
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.0349
+          }
+        ]
+      },
+      {
+        "rank": 18,
+        "name": "darbepoetin alfa",
+        "importance": 0.0272,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2779
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2208
+          },
+          {
+            "feature": "Target: Membrane receptor",
+            "raw_name": "tc_Membrane receptor",
+            "score": 0.0653
+          },
+          {
+            "feature": "Action: AGONIST",
+            "raw_name": "at_AGONIST",
+            "score": 0.059
+          },
+          {
+            "feature": "ATC: Blood",
+            "raw_name": "atc_l1_B",
+            "score": 0.0384
+          }
+        ]
+      },
+      {
+        "rank": 19,
+        "name": "insulin degludec",
+        "importance": 0.0264,
+        "top_features": [
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2888
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.2198
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.1111
+          },
+          {
+            "feature": "Target: Kinase",
+            "raw_name": "tc_Kinase",
+            "score": 0.0306
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0153
+          }
+        ]
+      },
+      {
+        "rank": 20,
+        "name": "magnesium oxide",
+        "importance": 0.0252,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.3132
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2106
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0733
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.0443
+          }
+        ]
+      },
+      {
+        "rank": 21,
+        "name": "citric acid",
+        "importance": 0.0251,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1908
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.1545
+          },
+          {
+            "feature": "Action: ACTIVATOR",
+            "raw_name": "at_ACTIVATOR",
+            "score": 0.1351
+          },
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.0547
+          },
+          {
+            "feature": "Target: Ion channel",
+            "raw_name": "tc_Ion channel",
+            "score": 0.0535
+          }
+        ]
+      },
+      {
+        "rank": 22,
+        "name": "sodium bicarbonate",
+        "importance": 0.0223,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2704
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2253
+          },
+          {
+            "feature": "ATC: Blood",
+            "raw_name": "atc_l1_B",
+            "score": 0.0465
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.026
+          }
+        ]
+      },
+      {
+        "rank": 23,
+        "name": "biotin",
+        "importance": 0.0219,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2372
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2024
+          },
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.0623
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.0367
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0201
+          }
+        ]
+      },
+      {
+        "rank": 24,
+        "name": "aluminum hydroxide",
+        "importance": 0.0184,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2214
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.2032
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.0278
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0152
+          }
+        ]
+      },
+      {
+        "rank": 25,
+        "name": "magnesium carbonate",
+        "importance": 0.0176,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2333
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0839
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0718
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.06
+          }
+        ]
+      },
+      {
+        "rank": 26,
+        "name": "polyethylene glycol 4000",
+        "importance": 0.0174,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2136
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.1745
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.0309
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0241
+          }
+        ]
+      },
+      {
+        "rank": 27,
+        "name": "lanthanum carbonate",
+        "importance": 0.0174,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2016
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.1706
+          },
+          {
+            "feature": "ATC: Various",
+            "raw_name": "atc_l1_V",
+            "score": 0.0569
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0137
+          }
+        ]
+      },
+      {
+        "rank": 28,
+        "name": "stearic acid",
+        "importance": 0.0174,
+        "top_features": [
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.1161
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0944
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0919
+          },
+          {
+            "feature": "Target: Nuclear hormone receptor",
+            "raw_name": "tc_Nuclear hormone receptor",
+            "score": 0.0873
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.036
+          }
+        ]
+      },
+      {
+        "rank": 29,
+        "name": "pyridoxine hydrochloride",
+        "importance": 0.0161,
+        "top_features": [
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.1498
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.0724
+          },
+          {
+            "feature": "ATC: Anti-infectives",
+            "raw_name": "atc_l1_J",
+            "score": 0.071
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0381
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0306
+          }
+        ]
+      },
+      {
+        "rank": 30,
+        "name": "chlorpheniramine maleate",
+        "importance": 0.0161,
+        "top_features": [
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.1449
+          },
+          {
+            "feature": "Target: GPCR",
+            "raw_name": "tc_GPCR",
+            "score": 0.0862
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0487
+          },
+          {
+            "feature": "Target: Unclassified",
+            "raw_name": "tc_Unclassified",
+            "score": 0.0456
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0196
+          }
+        ]
+      },
+      {
+        "rank": 31,
+        "name": "maltose",
+        "importance": 0.0151,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2181
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.131
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0367
+          }
+        ]
+      },
+      {
+        "rank": 32,
+        "name": "ammonium chloride",
+        "importance": 0.0151,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.222
+          },
+          {
+            "feature": "ATC: Genitourinary",
+            "raw_name": "atc_l1_G",
+            "score": 0.0526
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0514
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0473
+          },
+          {
+            "feature": "ATC: Blood",
+            "raw_name": "atc_l1_B",
+            "score": 0.0104
+          }
+        ]
+      },
+      {
+        "rank": 33,
+        "name": "lutein",
+        "importance": 0.0147,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1956
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.1589
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0195
+          }
+        ]
+      },
+      {
+        "rank": 34,
+        "name": "sodium phosphate, monobasic",
+        "importance": 0.0136,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.2053
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.1119
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0283
+          }
+        ]
+      },
+      {
+        "rank": 35,
+        "name": "docusate sodium",
+        "importance": 0.013,
+        "top_features": [
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.1833
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0953
+          },
+          {
+            "feature": "ATC: Alimentary/Metabolism",
+            "raw_name": "atc_l1_A",
+            "score": 0.0366
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0161
+          }
+        ]
+      },
+      {
+        "rank": 36,
+        "name": "dobutamine hydrochloride",
+        "importance": 0.012,
+        "top_features": [
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.1321
+          },
+          {
+            "feature": "Target: Kinase",
+            "raw_name": "tc_Kinase",
+            "score": 0.0317
+          },
+          {
+            "feature": "Target: GPCR",
+            "raw_name": "tc_GPCR",
+            "score": 0.0306
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0264
+          },
+          {
+            "feature": "Target: Transporter",
+            "raw_name": "tc_Transporter",
+            "score": 0.0213
+          }
+        ]
+      },
+      {
+        "rank": 37,
+        "name": "propylene glycol",
+        "importance": 0.0111,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.173
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0836
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.027
+          }
+        ]
+      },
+      {
+        "rank": 38,
+        "name": "hydrocortisone acetate",
+        "importance": 0.0097,
+        "top_features": [
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.1378
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.084
+          },
+          {
+            "feature": "Target: Secreted",
+            "raw_name": "tc_Secreted",
+            "score": 0.0123
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.007
+          },
+          {
+            "feature": "Action: AGONIST",
+            "raw_name": "at_AGONIST",
+            "score": 0.0046
+          }
+        ]
+      },
+      {
+        "rank": 39,
+        "name": "ceftriaxone sodium",
+        "importance": 0.0086,
+        "top_features": [
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0796
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0602
+          },
+          {
+            "feature": "Action: INHIBITOR",
+            "raw_name": "at_INHIBITOR",
+            "score": 0.0366
+          },
+          {
+            "feature": "Target: Transporter",
+            "raw_name": "tc_Transporter",
+            "score": 0.0261
+          },
+          {
+            "feature": "Target: Enzyme",
+            "raw_name": "tc_Enzyme",
+            "score": 0.0165
+          }
+        ]
+      },
+      {
+        "rank": 40,
+        "name": "phenoxyethanol",
+        "importance": 0.0081,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1383
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0487
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0182
+          }
+        ]
+      },
+      {
+        "rank": 41,
+        "name": "sucrose",
+        "importance": 0.0081,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.1404
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0528
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.012
+          }
+        ]
+      },
+      {
+        "rank": 42,
+        "name": "amiodarone hydrochloride",
+        "importance": 0.0077,
+        "top_features": [
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.04
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0279
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.025
+          },
+          {
+            "feature": "Target: Transporter",
+            "raw_name": "tc_Transporter",
+            "score": 0.0226
+          },
+          {
+            "feature": "Target: Membrane receptor",
+            "raw_name": "tc_Membrane receptor",
+            "score": 0.0205
+          }
+        ]
+      },
+      {
+        "rank": 43,
+        "name": "albuterol sulfate",
+        "importance": 0.0053,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0517
+          },
+          {
+            "feature": "Action: AGONIST",
+            "raw_name": "at_AGONIST",
+            "score": 0.0258
+          },
+          {
+            "feature": "Target: GPCR",
+            "raw_name": "tc_GPCR",
+            "score": 0.0211
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0182
+          },
+          {
+            "feature": "ATC: Respiratory",
+            "raw_name": "atc_l1_R",
+            "score": 0.0166
+          }
+        ]
+      },
+      {
+        "rank": 44,
+        "name": "hydromorphone hydrochloride",
+        "importance": 0.0051,
+        "top_features": [
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.038
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0362
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0355
+          },
+          {
+            "feature": "Action: AGONIST",
+            "raw_name": "at_AGONIST",
+            "score": 0.0116
+          },
+          {
+            "feature": "ATC: Nervous System",
+            "raw_name": "atc_l1_N",
+            "score": 0.0055
+          }
+        ]
+      },
+      {
+        "rank": 45,
+        "name": "umeclidinium bromide",
+        "importance": 0.0049,
+        "top_features": [
+          {
+            "feature": "Target: GPCR",
+            "raw_name": "tc_GPCR",
+            "score": 0.0313
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0234
+          },
+          {
+            "feature": "Action: ANTAGONIST",
+            "raw_name": "at_ANTAGONIST",
+            "score": 0.0208
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.02
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0194
+          }
+        ]
+      },
+      {
+        "rank": 46,
+        "name": "metamizole sodium",
+        "importance": 0.0048,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0591
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0373
+          },
+          {
+            "feature": "Target: Ion channel",
+            "raw_name": "tc_Ion channel",
+            "score": 0.0125
+          },
+          {
+            "feature": "Action: BLOCKER",
+            "raw_name": "at_BLOCKER",
+            "score": 0.0096
+          },
+          {
+            "feature": "ATC: Nervous System",
+            "raw_name": "atc_l1_N",
+            "score": 0.0039
+          }
+        ]
+      },
+      {
+        "rank": 47,
+        "name": "allantoin",
+        "importance": 0.0038,
+        "top_features": [
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0544
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0219
+          },
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0217
+          }
+        ]
+      },
+      {
+        "rank": 48,
+        "name": "titanium dioxide",
+        "importance": 0.0034,
+        "top_features": [
+          {
+            "feature": "Known side effects",
+            "raw_name": "log_se_count",
+            "score": 0.0326
+          },
+          {
+            "feature": "Target gene count",
+            "raw_name": "log_gene_count",
+            "score": 0.0308
+          },
+          {
+            "feature": "Drug class diversity",
+            "raw_name": "log_atc_count",
+            "score": 0.0241
+          }
+        ]
+      }
+    ],
+    "gnnexplainer_importance": [
+      {
+        "rank": 1,
+        "name": "dobutamine hydrochloride",
+        "importance": 0.0494
+      },
+      {
+        "rank": 2,
+        "name": "acetaminophen",
+        "importance": 0.042
+      },
+      {
+        "rank": 3,
+        "name": "amiodarone hydrochloride",
+        "importance": 0.042
+      },
+      {
+        "rank": 4,
+        "name": "chlorpheniramine maleate",
+        "importance": 0.0396
+      },
+      {
+        "rank": 5,
+        "name": "docusate sodium",
+        "importance": 0.0367
+      },
+      {
+        "rank": 6,
+        "name": "hydrocortisone acetate",
+        "importance": 0.0344
+      },
+      {
+        "rank": 7,
+        "name": "pyridoxine hydrochloride",
+        "importance": 0.0342
+      },
+      {
+        "rank": 8,
+        "name": "insulin degludec",
+        "importance": 0.0325
+      },
+      {
+        "rank": 9,
+        "name": "ceftriaxone sodium",
+        "importance": 0.0307
+      },
+      {
+        "rank": 10,
+        "name": "vilanterol trifenatate",
+        "importance": 0.0283
+      },
+      {
+        "rank": 11,
+        "name": "melatonin",
+        "importance": 0.0277
+      },
+      {
+        "rank": 12,
+        "name": "simvastatin",
+        "importance": 0.0275
+      },
+      {
+        "rank": 13,
+        "name": "chloramphenicol",
+        "importance": 0.0267
+      },
+      {
+        "rank": 14,
+        "name": "fluticasone",
+        "importance": 0.0246
+      },
+      {
+        "rank": 15,
+        "name": "lansoprazole",
+        "importance": 0.024
+      },
+      {
+        "rank": 16,
+        "name": "dexlansoprazole",
+        "importance": 0.0237
+      },
+      {
+        "rank": 17,
+        "name": "riboflavin",
+        "importance": 0.0234
+      },
+      {
+        "rank": 18,
+        "name": "ascorbic acid",
+        "importance": 0.0226
+      },
+      {
+        "rank": 19,
+        "name": "citric acid",
+        "importance": 0.0202
+      },
+      {
+        "rank": 20,
+        "name": "stearic acid",
+        "importance": 0.0199
+      },
+      {
+        "rank": 21,
+        "name": "metamizole sodium",
+        "importance": 0.0192
+      },
+      {
+        "rank": 22,
+        "name": "hydromorphone hydrochloride",
+        "importance": 0.0188
+      },
+      {
+        "rank": 23,
+        "name": "albuterol sulfate",
+        "importance": 0.0186
+      },
+      {
+        "rank": 24,
+        "name": "vitamin E",
+        "importance": 0.0185
+      },
+      {
+        "rank": 25,
+        "name": "titanium dioxide",
+        "importance": 0.0185
+      },
+      {
+        "rank": 26,
+        "name": "umeclidinium bromide",
+        "importance": 0.0181
+      },
+      {
+        "rank": 27,
+        "name": "warfarin",
+        "importance": 0.018
+      },
+      {
+        "rank": 28,
+        "name": "potassium chloride",
+        "importance": 0.0179
+      },
+      {
+        "rank": 29,
+        "name": "betamethasone",
+        "importance": 0.0179
+      },
+      {
+        "rank": 30,
+        "name": "sodium chloride",
+        "importance": 0.0175
+      },
+      {
+        "rank": 31,
+        "name": "darbepoetin alfa",
+        "importance": 0.0172
+      },
+      {
+        "rank": 32,
+        "name": "nystatin",
+        "importance": 0.0167
+      },
+      {
+        "rank": 33,
+        "name": "biotin",
+        "importance": 0.015
+      },
+      {
+        "rank": 34,
+        "name": "ammonium chloride",
+        "importance": 0.0143
+      },
+      {
+        "rank": 35,
+        "name": "sodium bicarbonate",
+        "importance": 0.012
+      },
+      {
+        "rank": 36,
+        "name": "lanthanum carbonate",
+        "importance": 0.0117
+      },
+      {
+        "rank": 37,
+        "name": "polyethylene glycol 4000",
+        "importance": 0.0115
+      },
+      {
+        "rank": 38,
+        "name": "aluminum hydroxide",
+        "importance": 0.0113
+      },
+      {
+        "rank": 39,
+        "name": "magnesium carbonate",
+        "importance": 0.0113
+      },
+      {
+        "rank": 40,
+        "name": "magnesium oxide",
+        "importance": 0.0112
+      },
+      {
+        "rank": 41,
+        "name": "calcium carbonate",
+        "importance": 0.0112
+      },
+      {
+        "rank": 42,
+        "name": "allantoin",
+        "importance": 0.0101
+      },
+      {
+        "rank": 43,
+        "name": "sucrose",
+        "importance": 0.0094
+      },
+      {
+        "rank": 44,
+        "name": "phenoxyethanol",
+        "importance": 0.0092
+      },
+      {
+        "rank": 45,
+        "name": "maltose",
+        "importance": 0.0091
+      },
+      {
+        "rank": 46,
+        "name": "sodium phosphate, monobasic",
+        "importance": 0.0089
+      },
+      {
+        "rank": 47,
+        "name": "lutein",
+        "importance": 0.0083
+      },
+      {
+        "rank": 48,
+        "name": "propylene glycol",
+        "importance": 0.0083
+      }
+    ],
+    "top_edge_importance": [
+      {
+        "drug1": "magnesium carbonate",
+        "drug2": "acetaminophen",
+        "importance": 0.8055
+      },
+      {
+        "drug1": "propylene glycol",
+        "drug2": "acetaminophen",
+        "importance": 0.7998
+      },
+      {
+        "drug1": "acetaminophen",
+        "drug2": "ammonium chloride",
+        "importance": 0.7978
+      },
+      {
+        "drug1": "magnesium carbonate",
+        "drug2": "calcium carbonate",
+        "importance": 0.7753
+      },
+      {
+        "drug1": "propylene glycol",
+        "drug2": "simvastatin",
+        "importance": 0.4321
+      }
+    ]
+  }
+]
